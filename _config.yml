@@ -1,0 +1,21 @@
+# Site settings
+title: Mabel Villalba Jiménez
+email: mabelvj@gmail.com
+description: "Materials and projects"
+baseurl: ""
+url: "http://mabelvj.github.io"
+twitter_username: mabelvj
+github_username:  mabelvj
+linkedin_username:  mabelvj
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
+theme: minima
