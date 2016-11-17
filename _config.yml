@@ -4,7 +4,6 @@ email: mabelvj@gmail.com
 description: "Materials and projects"
 baseurl: ""
 url: "http://mabelvj.github.io"
-twitter_username: mabelvj
 github_username:  mabelvj
 linkedin_username:  mabelvj
 
@@ -19,3 +18,11 @@ kramdown:
   syntax_highlighter: rouge
 
 theme: minima
+
+{% if site.linkedin_username %}
+  <li>
+    <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+      <i class="fa fa-linkedin"></i> LinkedIn
+    </a>
+  </li>
+{% endif %}
