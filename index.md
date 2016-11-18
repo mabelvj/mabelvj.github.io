@@ -17,8 +17,8 @@ layout: home
 	width:150px; 
 	border-radius: 50%;
 	float:left;
-	padding-right: 15px;
-	padding-bottom: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
 }
 </style>
 
