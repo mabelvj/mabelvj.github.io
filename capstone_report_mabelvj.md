@@ -17,7 +17,7 @@ Isabel María Villalba Jiménez
 Thursday  3<span class="s2">rd</span><span class="s3"> </span>November, 2016
 
 # 1.[Definition](#i.-definition)
-==========
+----------------
 
 ## 1.1. Project Overview
 ----------------
@@ -88,7 +88,7 @@ Other interesting tool can be the **confusion matrix**, which is a more detailed
 Another important measure can be the **error rate** vs iterations for different batch sizes. The error rate used can be the percentage of wrong classified samples. This metric is widely used in literature for ConvNets [@Lecun98; @Krizhevsky12] as it gives an insight of the state of training of the network. It is quite common to detect over-training. When this phenomenon occurs, the training error keeps decreasing over time, but the test error goes through a minimum and then starts increasing after a certain number of iteration [@Lecun98].
 
 # 2.[Analysis](#ii.-analysis)
-========
+----------------
 
 ## 2.1. Data Exploration
 ----------------
@@ -176,7 +176,7 @@ Nevertheless, I will not be able to compare the performance of my models to thes
 Consequently, it will not be easy to truly compare the performance of this model with the ones in the competitions. Taking into consideration all the factors explained above, 0.95 AUC can be a really good value to achieve.
 
 # 3. [Methodology](#iii.-methodology)
-===========
+----------------
 
 ## 3.1. Data Preprocessing
 ------------------
@@ -270,7 +270,7 @@ Finally, for fixed batch size and learning rate, the AUC has been calculated for
 **Figure 14: AUC in the validation dataset for different regularization values, batch size = 5 and learning rate *α*=0.0005**
 
 # 4. [Results](#iv.-results)
-=======
+----------------
 
 ## 4.1. Model Evaluation and Validation
 -------------------------------
@@ -291,7 +291,7 @@ This work has shown the use of simple ConvNet for audio recognition, obtaining g
 One of the advantages of simpler networks relies upon the reduction of time required for training the model, resulting in fewer computer requirements. With a vast dataset, the system would increase significantly the performance and equal those with more complex structure, making it a simple, yet robust choice.
 
 # 5. [Conclusion](#v.-conclusion)
-==========
+----------------
 
 ## 5.1. Free-Form Visualization
 -----------------------

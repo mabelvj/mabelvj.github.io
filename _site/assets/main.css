@@ -155,6 +155,9 @@ pre {
 .site-title {
   font-family: Raleway Dots, cursive;
   text-rendering: optimizeLegibility;
+  -webkit-text-stroke: 0.1px;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale;
   font-size: 62px;
   font-weight: 600;
   line-height: 60px;
@@ -210,11 +213,11 @@ pre {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #e8e8e8;
+  border-top: 0.25px solid #e8e8e8;
   padding: 30px 0; }
 
 .footer-heading {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 15px; }
 
 .contact-list,
@@ -223,7 +226,7 @@ pre {
   margin-left: 0; }
 
 .footer-col-wrapper {
-  font-size: 15px;
+  font-size: 18px;
   color: #828282;
   margin-left: -15px; }
 
@@ -262,10 +265,11 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 30px 0; }
+  padding: 30px 0;
+  font-size: 18px; }
 
 .page-heading {
-  font-size: 20px; }
+  font-size: 25px; }
 
 .post-list {
   margin-left: 0;
