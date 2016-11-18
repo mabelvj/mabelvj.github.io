@@ -37,8 +37,10 @@ Right now, I am following a new course at Udacity, the [Data Analyst Nanodegree]
 
 Check out the links to know more!
 
+********
 
 **Machine Learning Engineer Nanodegree [@Udacity](https://www.udacity.com):**
+-----------------
 
 - Capstone project:
 
