@@ -1,13 +1,14 @@
 ---
 layout: page
-title: 'Capstone project: Right Whale call recognition using Convolutional Neural Networks'
+title: 'Right Whale call recognition using Convolutional Neural Networks'
 permalink: /capstone_mabelvj/
 bibliography: library.bib
 link-citations: True
 fig_caption: yes 
+navigation_weight: 2
 ---
 
-Machine Learning Engineer Nanodegree
+Capstone project: Machine Learning Engineer Nanodegree
 ===============
 
 

@@ -154,7 +154,7 @@ pre {
 
 .site-title {
   font-family: Raleway Dots, cursive;
-  font-size: 55px;
+  font-size: 62px;
   font-weight: 600;
   line-height: 60px;
   letter-spacing: -1px;
@@ -232,12 +232,12 @@ pre {
   padding-left: 15px; }
 
 .footer-col-1 {
-  width: -webkit-calc(35% - (30px / 2));
-  width: calc(35% - (30px / 2)); }
+  width: -webkit-calc(45% - (30px / 2));
+  width: calc(45% - (30px / 2)); }
 
 .footer-col-2 {
-  width: -webkit-calc(20% - (30px / 2));
-  width: calc(20% - (30px / 2)); }
+  width: -webkit-calc(40% - (30px / 2));
+  width: calc(40% - (30px / 2)); }
 
 .footer-col-3 {
   width: -webkit-calc(45% - (30px / 2));
