@@ -6,7 +6,7 @@
 #
 layout: home
 ---
-<img style="float: left; width:100px; border-radius: 50%; clip-path: circle(100px at center);" src="../img/photo.jpg">
+<img style="float: left; width:200px; border-radius: 50%; clip-path: circle(100px at center);" src="../img/photo_small.jpg">
 
 Telecommunication engineer and data science passionate.
 
