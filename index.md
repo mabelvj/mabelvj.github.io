@@ -37,6 +37,6 @@ I discovered data science with a [Machine Learning](https://www.coursera.org/lea
 
 Right now, I am following a new course at Udacity, the [Data Analyst Nanodegree](https://www.udacity.com/course/data-analyst-nanodegree--nd002) by Facebook and MongoDB, where I am learning in order how to properly analyze data, how to make good visualizations of data, R, SQL and mongoDB, OpenStreetMap, D3.js and A/B tests.
 
-Check out the links in the header to know more!
+Check out the links at the header to know more!
 
 
