@@ -37,7 +37,10 @@
   .menu-icon {
     display: none;
   }
-
+  .collapse {
+  /*display: none;
+  visibility: hidden;*/
+  }
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
@@ -47,7 +50,10 @@
       margin-right: 20px;
     }
   }
-
+  .collapse {
+  /*display: none;
+  visibility: hidden;*/
+  }
   @include media-query($on-palm) {
     position: absolute;
     top: 9px;
