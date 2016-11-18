@@ -40,7 +40,7 @@ Check out the links to know more!
 ********
 
 **Machine Learning Engineer Nanodegree [@Udacity](https://www.udacity.com):**
------------------
+
 
 - Capstone project:
 
