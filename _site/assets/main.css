@@ -154,6 +154,7 @@ pre {
 
 .site-title {
   font-family: Raleway Dots, cursive;
+  text-rendering: optimizeLegibility;
   font-size: 62px;
   font-weight: 600;
   line-height: 60px;
