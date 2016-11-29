@@ -10,6 +10,7 @@ navigation_weight: 3
 - Capstone project:
 
 	Report: [Right Whale call recognition using Convolutional Neural Networks](/capstone_mabelvj/)
+	
 	Files: [Capstone project](https://github.com/mabelvj/MLNP/tree/master/capstone/code)
 
 - Projects:
