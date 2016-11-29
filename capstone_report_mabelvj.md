@@ -11,6 +11,7 @@ mathjax: "http://example.com/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 
 Capstone project: Machine Learning Engineer Nanodegree
 ===============
+> Code availabe here: **[https://github.com/mabelvj/MLNP/tree/master/capstone/code](https://github.com/mabelvj/MLNP/tree/master/capstone/code)**
 
 
 Isabel María Villalba Jiménez 
