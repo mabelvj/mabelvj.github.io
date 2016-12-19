@@ -153,13 +153,13 @@ pre {
   background: #00D9CB; }
 
 .site-title {
-  font-family: Raleway Dots, cursive;
+  font-family: Raleway, cursive;
   text-rendering: optimizeLegibility;
   -webkit-text-stroke: 0.1px;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale;
   font-size: 62px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 60px;
   letter-spacing: -1px;
   margin-bottom: 0;
