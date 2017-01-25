@@ -4,6 +4,13 @@ layout: page
 navigation_weight: 3
 ---
 
+**Data Analyst Nanodegree [@Udacity](https://www.udacity.com):**
+
+- Projects:
+
+	[Project 1: Test a Perceptual Phenomenon](https://cdn.rawgit.com/mabelvj/data-analyst-nanodegree/f092aa2b/P1-test-perceptual-phenomenon/P1-Test_a_Perceptual_Phenomenon.html)
+
+
 **Machine Learning Engineer Nanodegree [@Udacity](https://www.udacity.com):**
 
 
@@ -24,3 +31,4 @@ navigation_weight: 3
 	[Project 1 : Predicting Boston Housing Prices](https://github.com/mabelvj/MLNP/blob/master/P1_boston_housing/boston_housing.ipynb)
 
 	[Project 0 : Titanic Survival explorations](https://github.com/mabelvj/MLNP/blob/master/P0_titanic/Titanic_Survival_Exploration.ipynb)
+	
