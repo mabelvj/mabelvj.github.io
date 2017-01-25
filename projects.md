@@ -8,7 +8,7 @@ navigation_weight: 3
 
 - Projects:
 
-	[Project 1: Test a Perceptual Phenomenon](https://cdn.rawgit.com/mabelvj/data-analyst-nanodegree/f092aa2b/P1-test-perceptual-phenomenon/P1-Test_a_Perceptual_Phenomenon.html)
+	[Project 1: Test a Perceptual Phenomenon](https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P1-test-perceptual-phenomenon/P1-Test_a_Perceptual_Phenomenon.html)
 
 
 **Machine Learning Engineer Nanodegree [@Udacity](https://www.udacity.com):**
