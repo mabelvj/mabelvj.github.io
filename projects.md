@@ -7,7 +7,7 @@ navigation_weight: 3
 **Data Analyst Nanodegree [@Udacity](https://www.udacity.com):**
 
 - Projects:
-
+	[Project 2: Investigate a dataset](https://github.com/mabelvj/data-analyst-nanodegree/blob/master/P2-investigate-dataset/P2_report.ipynb)
 	[Project 1: Test a Perceptual Phenomenon](https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P1-test-perceptual-phenomenon/P1-Test_a_Perceptual_Phenomenon.html)
 
 
