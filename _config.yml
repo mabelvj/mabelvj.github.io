@@ -6,7 +6,7 @@ baseurl: ""
 url: "http://mabelvj.github.io"
 github_username:  mabelvj
 linkedin_username:  mabelvj
-resume_link: ./mabelvj_cv.pdf
+resume_link: "http://mabelvj.github.io/mabelvj_cv.pdf"
 
 # Build settings
 markdown: kramdown
