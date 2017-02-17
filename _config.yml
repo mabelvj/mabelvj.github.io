@@ -3,10 +3,10 @@ title: Mabel Villalba Jiménez
 email: mabelvj@gmail.com
 description: "Projects and stuff"
 baseurl: ""
-url: "http://mabelvj.github.io"
+url: "https://mabelvj.github.io"
 github_username:  mabelvj
 linkedin_username:  mabelvj
-resume_link: "http://mabelvj.github.io/mabelvj_cv.pdf"
+resume_link: "https://mabelvj.github.io/mabelvj_cv.pdf"
 
 # Build settings
 markdown: kramdown

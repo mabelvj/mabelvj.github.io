@@ -15,17 +15,26 @@
             {% endif %}
             </li>-->
             
-            Contact: {% if site.email %}
-            <li><a href="mailto:{{ site.email }}"> {{ site.email }}</a></li>
+            {% if site.email %}
+            <li>
+              {% include icon-email.html username=site.email %}
+            </li>
+            {% endif %}
+            {% if site.github_username %}
+              <li>
+                {% include icon-github.html username=site.github_username %}
+              </li>
             {% endif %}
             {% if site.resume_link%}
-            <li><a href="{{site.resume_link}}" style= "color: #8E0765"> Curriculum vitae </a></li>
+            <li>
+                {% include icon-cv.html username=site.resume_link %}
+            </li>
             {% endif %}
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
+        <!--<ul class="social-media-list">
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
@@ -43,11 +52,10 @@
           </li>
           {% endif %}
         </ul>
-      </div>
+      </div> -->
       <div class="footer-col footer-col-3">
         <!-- <p>{{ site.description | escape }}</p> --> 
-
-        <div class="LI-profile-badge"  data-version="v1" data-size="small" data-locale="es_ES" data-type="horizontal" data-theme="dark" data-vanity="mabelvj"><a class="LI-simple-link" href='https://es.linkedin.com/in/mabelvj?trk=profile-badge'>Isabel María Villalba Jiménez</a></div>
+        <div class="LI-profile-badge"  data-version="v1" data-size="small" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="mabelvj"><a class="LI-simple-link" href='https://es.linkedin.com/in/mabelvj?trk=profile-badge'>Isabel María Villalba Jiménez</a></div>
       </div>
     </div>
 
