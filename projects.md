@@ -8,8 +8,8 @@ navigation_weight: 3
 
 - Projects:
 
-	
-	- [Project 4: Explore and Summarize Data](https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P4-explore-and-summarize-data/P4-Analysis_of_a_dataset.html) [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P4-explore-and-summarize-data) <span style="color:red"><sup><sup>*(IN PROCESS)* </sup></sup></span>
+
+	- [Project 4: Explore and Summarize Data](https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P4-explore-and-summarize-data/P4-Analysis_of_a_dataset.html) [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P4-explore-and-summarize-data) <span style="color:red"><sup><sup>*(IN PROGRESS)* </sup></sup></span>
 
 		<sub> **Statistical analysis**: Analysis of features influencing Red Wine quality</sub>
 
@@ -17,32 +17,32 @@ navigation_weight: 3
 
 
 	- Project 3: Wrangle OpenStreeMap data using SQL
-	<!---(https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P4-explore-and-summarize-data/P4-Analysis_of_a_dataset.html)--> [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P3-wrangle-openstreetmap-data) <span style="color:red"><sup><sup>*(IN PROCESS)* </sup></sup></span>
+	<!---(https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P4-explore-and-summarize-data/P4-Analysis_of_a_dataset.html)--> [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P3-wrangle-openstreetmap-data) <span style="color:red"><sup><sup>*(IN PROGRESS)* </sup></sup></span>
 
 		<sub> **Relational Databases**: Cleaning of OpenStreetMap data for the Málaga area using data munging techniques, such as assessing the quality of the data for validity, accuracy, completeness, consistency and uniformity using a SQL data schema. </sub>
 
 		<sub>Skills: **SQL, xml, OpenStreetMap**</sub>
 
-	- [Project 2: Investigate a dataset](https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P2-investigate-dataset/P2_report.html) [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P2-investigate-dataset) 
+	- [Project 2: Investigate a dataset](https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P2-investigate-dataset/P2_report.html) [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P2-investigate-dataset)
 
-		<sub>**Statistical analysis**: Investigate a dataset using in Python and perform chi-squared test for independence to draw conclusions using the module stats from scipy.</sub> 
+		<sub>**Statistical analysis**: Investigate a dataset using in Python and perform chi-squared test for independence to draw conclusions using the module stats from scipy.</sub>
 
 		<sub>Skills: **chi-squared test, pandas, numpy, stats, scipy, Jupyter-notebook**
 		</sub>
 
-	- [Project 1: Test a Perceptual Phenomenon](https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P1-test-perceptual-phenomenon/P1-Test_a_Perceptual_Phenomenon.html) [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P1-test-perceptual-phenomenon) 
+	- [Project 1: Test a Perceptual Phenomenon](https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P1-test-perceptual-phenomenon/P1-Test_a_Perceptual_Phenomenon.html) [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P1-test-perceptual-phenomenon)
 
 		<sub> **Statistical analysis**: Use descriptive statistics and a statistical test to analyze the Stroop effect, a classic result of experimental psychology. </sub>
 
 		<sub>Skills: **t-test, ggplot, R, rmarkdown**
 		</sub>
 
-	
+
 
 **Machine Learning Engineer Nanodegree [@Udacity](https://www.udacity.com):**
 
 
-- Capstone project: [**Right Whale call recognition using Convolutional Neural Networks**](/capstone_mabelvj/) [{%include icon-github.svg%}](https://github.com/mabelvj/MLNP/tree/master/capstone/code) 
+- Capstone project: [**Right Whale call recognition using Convolutional Neural Networks**](/capstone_mabelvj/) [{%include icon-github.svg%}](https://github.com/mabelvj/MLNP/tree/master/capstone/code)
 
 	<sub> Recognition of Right Whale up-call using **Convolutional Neural Networks** (ConvNets) models implemented on **Tensorflow**.</sub>
 
@@ -66,7 +66,7 @@ navigation_weight: 3
 
 	- [Project 2 : Building a Student Intervention System](https://rawgit.com/mabelvj/MLNP/master/P2_student_intervention/student_intervention.html) [{%include icon-github.svg%}](https://github.com/mabelvj/MLNP/tree/master/P2_student_intervention)
 
-		<sub> **Supervised Learning**: Analysis of a dataset of students at high school to determine whether they will or will not pass the course in order to have an intervention of the student and prevent from failing the course.</sub> 
+		<sub> **Supervised Learning**: Analysis of a dataset of students at high school to determine whether they will or will not pass the course in order to have an intervention of the student and prevent from failing the course.</sub>
 
 		<sub>Selection and optimization of supervised learning algorithms in Python.</sub>
 
@@ -87,4 +87,3 @@ navigation_weight: 3
 
 		<sub>Skills: **pandas, numpy, stats, csv,  Jupyter-notebook**
 		</sub>
-
