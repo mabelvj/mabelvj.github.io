@@ -8,6 +8,21 @@ navigation_weight: 3
 
 - Projects:
 
+	
+	- [Project 4: Explore and Summarize Data](https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P4-explore-and-summarize-data/P4-Analysis_of_a_dataset.html) [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P4-explore-and-summarize-data) <span style="color:red"><sub>*(IN PROCESS)* </sub></span>
+
+		<sub> **Statistical analysis**: Analysis of features influencing Red Wine quality</sub>
+
+		<sub>Skills: **ggplot, Ggally, gridExtra, data.table, R, rmarkdown** </sub>
+
+
+	- Project 3: Wrangle OpenStreeMap data using SQL
+	<!---(https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P4-explore-and-summarize-data/P4-Analysis_of_a_dataset.html)--> [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P3-wrangle-openstreetmap-data) <span style="color:red"><sub>*(IN PROCESS)* </sub></span>
+
+		<sub> **Relational Databases**: Cleaning of OpenStreetMap data for the Málaga area using data munging techniques, such as assessing the quality of the data for validity, accuracy, completeness, consistency and uniformity using a SQL data schema. </sub>
+
+		<sub>Skills: **SQL, xml, OpenStreetMap**</sub>
+
 	- [Project 2: Investigate a dataset](https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P2-investigate-dataset/P2_report.html) [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P2-investigate-dataset) 
 
 		<sub>**Statistical analysis**: Investigate a dataset using in Python and perform chi-squared test for independence to draw conclusions using the module stats from scipy.</sub> 
@@ -22,6 +37,7 @@ navigation_weight: 3
 		<sub>Skills: **t-test, ggplot, R, rmarkdown**
 		</sub>
 
+	
 
 **Machine Learning Engineer Nanodegree [@Udacity](https://www.udacity.com):**
 
