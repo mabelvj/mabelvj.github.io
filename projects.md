@@ -8,29 +8,67 @@ navigation_weight: 3
 
 - Projects:
 
-	[Project 2: Investigate a dataset](https://github.com/mabelvj/data-analyst-nanodegree/blob/master/P2-investigate-dataset/P2_report.ipynb)
+	- [Project 2: Investigate a dataset](https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P2-investigate-dataset/P2_report.html) [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P2-investigate-dataset) 
 
-	[Project 1: Test a Perceptual Phenomenon](https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P1-test-perceptual-phenomenon/P1-Test_a_Perceptual_Phenomenon.html)
+		<sub>**Statistical analysis**: Investigate a dataset using in Python and perform chi-squared test for independence to draw conclusions using the module stats from scipy.</sub> 
+
+		<sub>Skills: **chi-squared test, pandas, numpy, stats, scipy, Jupyter-notebook**
+		</sub>
+
+	- [Project 1: Test a Perceptual Phenomenon](https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P1-test-perceptual-phenomenon/P1-Test_a_Perceptual_Phenomenon.html) [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P1-test-perceptual-phenomenon) 
+
+		<sub> **Statistical analysis**: Use descriptive statistics and a statistical test to analyze the Stroop effect, a classic result of experimental psychology. </sub>
+
+		<sub>Skills: **t-test, ggplot, R, rmarkdown**
+		</sub>
 
 
 **Machine Learning Engineer Nanodegree [@Udacity](https://www.udacity.com):**
 
 
-- Capstone project:
+- Capstone project: [**Right Whale call recognition using Convolutional Neural Networks**](/capstone_mabelvj/) [{%include icon-github.svg%}](https://github.com/mabelvj/MLNP/tree/master/capstone/code) 
 
-	Report: [Right Whale call recognition using Convolutional Neural Networks](/capstone_mabelvj/)
-	
-	Files: [Capstone project](https://github.com/mabelvj/MLNP/tree/master/capstone/code)
+	<sub> Recognition of Right Whale up-call using **Convolutional Neural Networks** (ConvNets) models implemented on **Tensorflow**.</sub>
+
 
 - Projects:
 
-	[Project 4 : Smartcab train](https://github.com/mabelvj/MLNP/blob/master/P4_smartcab/smartcab_report.ipynb)
+	- [Project 4 : Smartcab train](https://rawgit.com/mabelvj/MLNP/master/P4_smartcab/smartcab_report.html) [{%include icon-github.svg%}](https://github.com/mabelvj/MLNP/tree/master/P4_smartcab)
 
-	[Project 3 : Creating customer segments](https://github.com/mabelvj/MLNP/blob/master/P3_creating_customer_segments/customer_segments.ipynb)
+		<sub>**Reinforcement Learning**: Training of a smartcab to drive following traffic rules in a populated environment.</sub>
 
-	[Project 2 : Building a Student Intervention System](https://github.com/mabelvj/MLNP/blob/master/P2_student_intervention/student_intervention.ipynb)
+	- [Project 3 : Creating customer segments](https://rawgit.com/mabelvj/MLNP/master/P3_creating_customer_segments/customer_segments.html) [{%include icon-github.svg%}](https://github.com/mabelvj/MLNP/tree/master/P3_creating_customer_segments)
 
-	[Project 1 : Predicting Boston Housing Prices](https://github.com/mabelvj/MLNP/blob/master/P1_boston_housing/boston_housing.ipynb)
+		<sub>**Unsupervised Learning**: Analysis of a dataset containing data on various customers' annual spending amounts (reported in monetary units) of diverse product categories for internal structure.  </sub>
 
-	[Project 0 : Titanic Survival explorations](https://github.com/mabelvj/MLNP/blob/master/P0_titanic/Titanic_Survival_Exploration.ipynb)
-	
+		<sub>Description of the different types of customers that a wholesale distributor interacts with to give the distributor an insight into how to best structure their delivery service to meet the needs of each customer. </sub>
+
+		<sub>Dataset from the UCI Machine Learning Repository ([https://archive.ics.uci.edu/ml/datasets/Wholesale+customers](https://archive.ics.uci.edu/ml/datasets/Wholesale+customers)). </sub>
+
+		<sub>Skills: **pandas, matplotlib, numpy, scikit-learn**
+		</sub>
+
+	- [Project 2 : Building a Student Intervention System](https://rawgit.com/mabelvj/MLNP/master/P2_student_intervention/student_intervention.html) [{%include icon-github.svg%}](https://github.com/mabelvj/MLNP/tree/master/P2_student_intervention)
+
+		<sub> **Supervised Learning**: Analysis of a dataset of students at high school to determine whether they will or will not pass the course in order to have an intervention of the student and prevent from failing the course.</sub> 
+
+		<sub>Selection and optimization of supervised learning algorithms in Python.</sub>
+
+
+		<sub>Skills: **pandas, matplotlib, numpy, scikit-learn, Jupyter-notebook**
+		</sub>
+
+	- [Project 1 : Predicting Boston Housing Prices](https://rawgit.com/mabelvj/MLNP/master/P1_boston_housing/boston_housing.html) [{%include icon-github.svg%}](https://github.com/mabelvj/MLNP/tree/master/P1_boston_housing)
+
+		<sub> **Model Evaluation & Validation**: Development of model for the estimation of house prices in Boston.</sub>
+
+		<sub>Skills: **matplotlib, numpy, scikit-learn, Jupyter-notebook**
+		</sub>
+
+	- [Project 0 : Titanic Survival explorations](https://rawgit.com/mabelvj/MLNP/master/P0_titanic/Titanic_Survival_Exploration.html) [{%include icon-github.svg%}](https://github.com/mabelvj/MLNP/tree/master/P0_titanic)
+
+		<sub> Exploration of the survival rate of the Titanic's passengers according to their characteristics. </sub>
+
+		<sub>Skills: **pandas, numpy, stats, csv,  Jupyter-notebook**
+		</sub>
+
