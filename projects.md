@@ -16,8 +16,7 @@ navigation_weight: 3
 		<sub>Skills: **ggplot, Ggally, gridExtra, data.table, R, rmarkdown** </sub>
 
 
-	- Project 3: Wrangle OpenStreeMap data using SQL
-	<!---(https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P4-explore-and-summarize-data/P4-Analysis_of_a_dataset.html)--> [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P3-wrangle-openstreetmap-data) <span style="color:red"><sup><sup>*(IN PROGRESS)* </sup></sup></span>
+	- [Project 3: Wrangle OpenStreeMap data using SQL](https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P3-wrangle-openstreetmap-data/Project_3_OpenStreetMap_SQL/Project_3_OpenStreetMap.html) [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P3-wrangle-openstreetmap-data) <span style="color:red"><sup><sup>*(IN PROGRESS)* </sup></sup></span>
 
 		<sub> **Relational Databases**: Cleaning of OpenStreetMap data for the Málaga area using data munging techniques, such as assessing the quality of the data for validity, accuracy, completeness, consistency and uniformity using a SQL data schema. </sub>
 
