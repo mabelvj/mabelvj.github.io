@@ -1,5 +1,5 @@
 ---
-title: "Statistics notes: z-test, t-test, ANOVA, chi-squared test"
+title: "Statistics notes"
 author: "Isabel María Villalba Jiménez"
 date: 2017-03-27 17:31:00 -0700
 layout: post
@@ -9,9 +9,13 @@ output:
     preserve_yaml: TRUE
     md_extensions: +emoji+citations+header_attributes
 link-citations: yes
+navigation_weight: 2
 #https://www.rdocumentation.org/packages/rmarkdown/versions/1.3/topics/md_document
 #My header {-} = # My header {.unnumbered}
 ---
+
+z-test, t-test, ANOVA and chi-squared tests, binomial distribution
+==================================================================
 
 Variance
 --------
