@@ -12,8 +12,8 @@ resume_link: "https://mabelvj.github.io/mabelvj_cv.pdf"
 #markdown: kramdown
 #markdown : Pandoc 
 markdown: redcarpet
-#redcarpet:
-#    extensions: ["no_intra_emphasis"]
+redcarpet:
+    extensions: ["no_intra_emphasis"]
 permalink: pretty
 
 highlighter: rouge
