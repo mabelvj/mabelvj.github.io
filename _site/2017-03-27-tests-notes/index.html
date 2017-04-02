@@ -8,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Statistics notes</title>
+  <title>Statistics notes: z-test, t-test, ANOVA, chi-squared test</title>
   <meta name="description" content="Projects and stuff">
 
   <link rel="stylesheet" href="/assets/main.css">
@@ -40,8 +40,9 @@
   MathJax.Hub.Config({
     tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
   });
-  </script><script type="text/javascript"
-    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+  <script type="text/javascript"
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
   </script>
   <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </head>
@@ -68,13 +69,13 @@
       
         
           
+          <a class="page-link" href="/2017-03-27-tests-notes/">Statistics notes: z-test, t-test, ANOVA, chi-squared test</a>
+          
+        
+          
         
           
           <a class="page-link" href="/">Home</a>
-          
-        
-          
-          <a class="page-link" href="/2017-03-27-tests-notes/">Statistics notes</a>
           
         
           
@@ -95,18 +96,15 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">Statistics notes</h1>
+    <h1 class="post-title" itemprop="name headline">Statistics notes: z-test, t-test, ANOVA, chi-squared test</h1>
+    <p class="post-meta"><time datetime="2017-03-28T02:31:00+02:00" itemprop="datePublished">Mar 27, 2017</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Isabel María Villalba Jiménez</span></span></p>
   </header>
 
-  <div class="post-content">
-    <h1>z-test, t-test, ANOVA and chi-squared tests</h1>
-
-<hr>
-
-<h2>Variance</h2>
+  <div class="post-content" itemprop="articleBody">
+    <h2>Variance</h2>
 
 <h3>Descriptive</h3>
 
@@ -247,9 +245,8 @@
 
 <h3>For a population</h3>
 
-<p><a href="https://en.wikipedia.org/wiki/Pearson_correlation_coefficient">Reference:Wikipedia</a>
-$$ \rho_{X,Y}= \frac{cov(X,Y)}{\sigma_X\cdot \sigma_Y}$$
- Pearson&#39;s correlation coefficient when applied to a population is commonly represented by the Greek letter ρ () and may be referred to as the populatiPearson&#39;s correlation coefficient when applied to a population is commonly represented by the Greek letter <em>ρ</em> and may be referred to as the population correlation coefficient or the population Pearson correlation coefficient.</p>
+<p>$$ \rho_{X,Y}= \frac{cov(X,Y)}{\sigma_X\cdot \sigma_Y}$$
+ Pearson&#39;s correlation coefficient when applied to a population is commonly represented by the Greek letter <em>ρ</em> and may be referred to as the population correlation coefficient or the population Pearson correlation coefficient.</p>
 
 <p>Where
 <em>c</em><em>o</em><em>v</em>(<em>X</em>, <em>Y</em>)=<em>E</em>[(<em>X</em> − <em>μ</em><sub><em>X</em></sub>)(<em>Y</em> − <em>μ</em><sub><em>Y</em></sub>)]
@@ -307,6 +304,8 @@ $$ \rho_{X,Y}= \frac{cov(X,Y)}{\sigma_X\cdot \sigma_Y}$$
 <li>  b : sample slope</li>
 </ul>
 
+<h3>Hypothesis testing</h3>
+
 <p>$$\begin{align*}H_o:&amp;\beta_1=0 \\ H_A: &amp;\beta_1\neq0 \\ &amp;\beta_1&gt;0 \\ &amp;\beta_1&lt;0 \end{align*}$$</p>
 
 <p><em>d</em><em>f</em> = <em>n</em> − 2, for n the number of elements in the sample.</p>
@@ -314,6 +313,12 @@ $$ \rho_{X,Y}= \frac{cov(X,Y)}{\sigma_X\cdot \sigma_Y}$$
 <h1><em>χ</em><sup>2</sup> test for independence</h1>
 
 <p>$$\chi^2 = \sum_{i=1}^n{\frac{(f_{oi} - f_{ei})^2}{f_{ei}}}$$</p>
+
+<ul>
+<li>  ∀ <em>χ</em><sup>2</sup> &gt; 0</li>
+<li>  ∀ one-directional test</li>
+<li>  <em>χ</em><sub><em>c</em><em>r</em><em>i</em><em>t</em></sub><sup>2</sup></li>
+</ul>
 
 <h3>1 variable with ≠ responses</h3>
 
@@ -325,14 +330,52 @@ $$ \rho_{X,Y}= \frac{cov(X,Y)}{\sigma_X\cdot \sigma_Y}$$
 
 <p>$$f_{ei} = \frac{(column\; total)(row\,total)}{grand \,total}$$</p>
 
+<h2>Binomial distribution</h2>
+
 <ul>
-<li>  ∀ <em>χ</em><sup>2</sup> &gt; 0</li>
-<li>  ∀ one-directional test</li>
-<li>  <em>χ</em><sub><em>c</em><em>r</em><em>i</em><em>t</em></sub><sup>2</sup></li>
+<li>  Propability: $P(X=r)= \binom {n} {r}p^r(1-p)^{n-r}$</li>
+<li>  Mean: <em>μ</em> = <em>n</em><em>p</em></li>
+<li>  Variance: <em>σ</em><sup>2</sup> = <em>n</em><em>p</em>(1 − <em>p</em>)</li>
+<li>  Standard deviation $s = \sqrt{np(1-p)}$</li>
+<li>  $SE = \sqrt{\frac{p(1-p)}{n}}$</li>
 </ul>
+
+<h3>Confidence Interval (CI)</h3>
+
+<p>$\hat{p}=\frac{x}{N}$</p>
+
+<p>$SE = \sqrt{\frac{\hat{p}(1-\hat{p})}{N}}$</p>
+
+<p>A distribution can be considered normal if $N\hat{p}&gt;5$ or $N(1-\hat{p})&gt;5$</p>
+
+<p><strong>Margin of error</strong>
+$$m = z\cdot SE = z\cdot\sqrt{\frac{\hat{p}(1-\hat{p})}{N}}$$</p>
+
+<h2>Pooled Standard Error (<em>S</em><em>E</em><sub><em>p</em></sub>)</h2>
+
+<h3>Comparing two samples</h3>
+
+<p><em>X</em><sub><em>c</em><em>o</em><em>n</em><em>t</em><em>r</em><em>o</em><em>l</em></sub>, <em>X</em><sub><em>e</em><em>x</em><em>p</em><em>e</em><em>r</em><em>i</em><em>m</em><em>e</em><em>n</em><em>t</em></sub>, <em>N</em><sub><em>c</em><em>o</em><em>n</em><em>t</em><em>r</em><em>o</em><em>l</em></sub>, <em>N</em><sub><em>e</em><em>x</em><em>p</em><em>e</em><em>r</em><em>i</em><em>m</em><em>e</em><em>n</em><em>t</em></sub></p>
+
+<p>$$\hat{p}_{p}= \frac{X_{control}+X_{exp}}{N_{control}+N_{exp}}$$
+ Pooled Standard Error (<em>S</em><em>E</em><sub><em>p</em></sub>)
+$$SE_{p}= \sqrt{\hat{p}_p\cdot(1-\hat{p}_p)\left(\frac{1}{N_{control}}+\frac{1}{N_{exp}}\right)}$$
+$$\hat{d}=\hat{p}_{exp}-\hat{p}_{control}$$</p>
+
+<p>$$\begin{align*}&amp;H_0:&amp; d=0 &amp;\rightarrow \hat{d}\sim N(0,SE_{p}) \\
+                &amp;H_A:&amp; d\neq 0 &amp; \rightarrow Reject\; Null:|\hat{d}| &gt; z^* SE_{p}\end{align*}$$</p>
+
+<p align="center">
+<img src="http://wweb.uta.edu/faculty/ricard/Images/Statistical-Power.gif" alt="Power-sensitivity" width="300">
+</p>
+
+<h2>References:</h2>
+
+<p><a href="https://en.wikipedia.org/wiki/Pearson_correlation_coefficient">Pearsons&#39;s r: Wikipedia</a></p>
 
   </div>
 
+  
 </article>
 
       </div>

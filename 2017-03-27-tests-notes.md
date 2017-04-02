@@ -232,6 +232,44 @@ $$\\chi^2 = \\sum\_{i=1}^n{\\frac{(f\_{oi} - f\_{ei})^2}{f\_{ei}}}$$
 
 $$f\_{ei} = \\frac{(column\\; total)(row\\,total)}{grand \\,total}$$
 
+Binomial distribution
+---------------------
+
+-   Propability: $P(X=r)= \\binom {n} {r}p^r(1-p)^{n-r}$
+-   Mean: *μ* = *n**p*
+-   Variance: *σ*<sup>2</sup> = *n**p*(1 − *p*)
+-   Standard deviation $s = \\sqrt{np(1-p)}$
+-   $SE = \\sqrt{\\frac{p(1-p)}{n}}$
+
+### Confidence Interval (CI)
+
+$\\hat{p}=\\frac{x}{N}$
+
+$SE = \\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{N}}$
+
+A distribution can be considered normal if $N\\hat{p}&gt;5$ or $N(1-\\hat{p})&gt;5$
+
+**Margin of error**
+$$m = z\\cdot SE = z\\cdot\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{N}}$$
+
+Pooled Standard Error (*S**E*<sub>*p*</sub>)
+--------------------------------------------
+
+### Comparing two samples
+
+*X*<sub>*c**o**n**t**r**o**l*</sub>, *X*<sub>*e**x**p**e**r**i**m**e**n**t*</sub>, *N*<sub>*c**o**n**t**r**o**l*</sub>, *N*<sub>*e**x**p**e**r**i**m**e**n**t*</sub>
+
+$$\\hat{p}\_{p}= \\frac{X\_{control}+X\_{exp}}{N\_{control}+N\_{exp}}$$
+ Pooled Standard Error (*S**E*<sub>*p*</sub>)
+$$SE\_{p}= \\sqrt{\\hat{p}\_p\\cdot(1-\\hat{p}\_p)\\left(\\frac{1}{N\_{control}}+\\frac{1}{N\_{exp}}\\right)}$$
+$$\\hat{d}=\\hat{p}\_{exp}-\\hat{p}\_{control}$$
+
+$$\\begin{align\*}&H\_0:& d=0 &\\rightarrow \\hat{d}\\sim N(0,SE\_{p}) \\\\
+                &H\_A:& d\\neq 0 & \\rightarrow Reject\\; Null:|\\hat{d}| &gt; z^\* SE\_{p}\\end{align\*}$$
+
+<p align="center">
+<img src="http://wweb.uta.edu/faculty/ricard/Images/Statistical-Power.gif" alt="Power-sensitivity" width="300">
+</p>
 References:
 -----------
 
