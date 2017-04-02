@@ -1,8 +1,8 @@
 ---
-title: "Statistics notes"
+title: "Statistics notes: z-test, t-test, ANOVA, chi-squared test"
 author: "Isabel María Villalba Jiménez"
 date: 2017-03-27 17:31:00 -0700
-layout: page
+layout: post
 output:
   md_document:
     variant: markdown_github
@@ -11,12 +11,10 @@ output:
 link-citations: yes
 #https://www.rdocumentation.org/packages/rmarkdown/versions/1.3/topics/md_document
 #My header {-} = # My header {.unnumbered}
-
-navigation_weight: 2
 ---
-# z-test, t-test, ANOVA and chi-squared tests
------------
-## Variance
+
+Variance
+--------
 
 ### Descriptive
 
@@ -152,9 +150,8 @@ Correlation coefficient (Pearson's r)
 
 ### For a population
 
-[Reference:Wikipedia](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)
 $$ \\rho\_{X,Y}= \\frac{cov(X,Y)}{\\sigma\_X\\cdot \\sigma\_Y}$$
- Pearson's correlation coefficient when applied to a population is commonly represented by the Greek letter ρ () and may be referred to as the populatiPearson's correlation coefficient when applied to a population is commonly represented by the Greek letter *ρ* and may be referred to as the population correlation coefficient or the population Pearson correlation coefficient.
+ Pearson's correlation coefficient when applied to a population is commonly represented by the Greek letter *ρ* and may be referred to as the population correlation coefficient or the population Pearson correlation coefficient.
 
 Where
 *c**o**v*(*X*, *Y*)=*E*\[(*X* − *μ*<sub>*X*</sub>)(*Y* − *μ*<sub>*Y*</sub>)\]
@@ -210,6 +207,8 @@ Confidence interval (CI)
 -   a : sample *y*<sub>*i**n**t*</sub>
 -   b : sample slope
 
+### Hypothesis testing
+
 $$\\begin{align\*}H\_o:&\\beta\_1=0 \\\\ H\_A: &\\beta\_1\\neq0 \\\\ &\\beta\_1&gt;0 \\\\ &\\beta\_1&lt;0 \\end{align\*}$$
 
 *d**f* = *n* − 2, for n the number of elements in the sample.
@@ -218,6 +217,10 @@ $$\\begin{align\*}H\_o:&\\beta\_1=0 \\\\ H\_A: &\\beta\_1\\neq0 \\\\ &\\beta\_1&
 =====================================
 
 $$\\chi^2 = \\sum\_{i=1}^n{\\frac{(f\_{oi} - f\_{ei})^2}{f\_{ei}}}$$
+
+-   ∀ *χ*<sup>2</sup> &gt; 0
+-   ∀ one-directional test
+-   *χ*<sub>*c**r**i**t*</sub><sup>2</sup>
 
 ### 1 variable with ≠ responses
 
@@ -229,6 +232,7 @@ $$\\chi^2 = \\sum\_{i=1}^n{\\frac{(f\_{oi} - f\_{ei})^2}{f\_{ei}}}$$
 
 $$f\_{ei} = \\frac{(column\\; total)(row\\,total)}{grand \\,total}$$
 
--   ∀ *χ*<sup>2</sup> &gt; 0
--   ∀ one-directional test
--   *χ*<sub>*c**r**i**t*</sub><sup>2</sup>
+References:
+-----------
+
+[Pearsons's r: Wikipedia](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)
