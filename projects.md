@@ -1,7 +1,7 @@
 ---
 title: Other projects
 layout: page
-navigation_weight: 3
+navigation_weight: 4
 ---
 
 **Data Analyst Nanodegree [@Udacity](https://www.udacity.com):**

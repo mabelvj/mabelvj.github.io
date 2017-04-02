@@ -5,7 +5,7 @@ permalink: /capstone_mabelvj/
 bibliography: library.bib
 link-citations: True
 fig_caption: yes 
-navigation_weight: 2
+navigation_weight: 3
 mathjax: "http://example.com/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 ---
 

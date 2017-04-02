@@ -9,7 +9,11 @@ linkedin_username:  mabelvj
 resume_link: "https://mabelvj.github.io/mabelvj_cv.pdf"
 
 # Build settings
-markdown: kramdown
+#markdown: kramdown
+#markdown : Pandoc 
+markdown: redcarpet
+#redcarpet:
+#    extensions: ["no_intra_emphasis"]
 permalink: pretty
 
 highlighter: rouge
@@ -19,3 +23,13 @@ kramdown:
   syntax_highlighter: rouge
 
 theme: minima
+
+#gems:
+#  - jekyll-pandoc
+
+#pandoc:
+#  extensions:
+#    - normalize
+#    - smart
+#    - mathjax
+#https://github.com/mfenner/jekyll-pandoc

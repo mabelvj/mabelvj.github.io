@@ -29,5 +29,16 @@
   ga('send', 'pageview');
 
   </script>
+  <!--- http://tinyheero.github.io/2015/12/06/rmd-to-jekyll-protect-eqn.html 
+  http://gastonsanchez.com/visually-enforced/opinion/2014/02/16/Mathjax-with-jekyll/
+  http://docs.mathjax.org/en/latest/configuration.html-->
+
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+  </script><script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
   <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </head>

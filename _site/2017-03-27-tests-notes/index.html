@@ -8,11 +8,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Home</title>
+  <title>Statistics notes</title>
   <meta name="description" content="Projects and stuff">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="canonical" href="http://localhost:4000/2017-03-27-tests-notes/">
   <link rel="alternate" type="application/rss+xml" title="Mabel Villalba Jiménez" href="/feed.xml">
   
   
@@ -95,47 +95,245 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post">
 
-  <h1 class="page-heading"></h1>
-  
-  <p><img class="profile-img" src="../img/photo_small.jpg"></p>
+  <header class="post-header">
+    <h1 class="post-title">Statistics notes</h1>
+  </header>
 
-<style>
-.profile-img{
-    shape-outside: circle(50%);
-    clip-path: circle(50%);
-    height: 150px;
-    width:150px; 
-    border-radius: 50%;
-    float:left;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-.nothing a:link {
-   color:inherit;
-}
-</style>
+  <div class="post-content">
+    <h1>z-test, t-test, ANOVA and chi-squared tests</h1>
 
-<p>Telecommunication engineer and data science passionate.</p>
+<hr>
 
-<p>What I really love about data science is how research and coding together are much more fun! </p>
+<h2>Variance</h2>
 
-<p>I discovered data science with a <a href="https://www.coursera.org/learn/machine-learning">Machine Learning</a> course in Coursera by professor Andrew Ng from Stanford University, and soon realized I wanted to go deeper. To do so, I joined <a href="https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009">Machine Learning Engineer Nanodegree</a> by Google at Udacity, where I learned really useful things through hands on projects, working with data in Python using scikit-learn, pandas, scipy and numpy.  I completed the course with a capstone project on deep learning using Tensorflow with the objective of detecting whales through recordings made at the sea.</p>
+<h3>Descriptive</h3>
 
-<p>Right now, I am following a new course at Udacity, the <a href="https://www.udacity.com/course/data-analyst-nanodegree--nd002">Data Analyst Nanodegree</a> by Facebook and MongoDB, where I am learning how to properly analyze data and make good visualizations. I am acquiring new skills in test analysis, R (ggplot, dplyr...), SQL and mongoDB, OpenStreetMap, D3.js and A/B tests.</p>
+<ul>
+<li>  <strong>SD</strong>: Standard Deviation, <em>σ</em>²</li>
+<li>  $s^2_n=\frac{1}{n}\sum(x_i - \bar{x})^2$</li>
+<li>  <strong>Bessel&#39;s correction</strong>
 
-<p>I also love to apply all these skills to help other students from the <a href="https://www.udacity.com/course/deep-learning-nanodegree-foundation--nd101">Deep Learning Nanodegree Foundation</a> and the <a href="https://www.udacity.com/course/artificial-intelligence-nanodegree--nd889">Artificial Intelligence Nanodegree</a> as <strong>Udacity Project Reviewer</strong> in projects related to Deep Learning, Reinforcement Learning, Statistical Analysis and general Machine Learning.</p>
+<ul>
+<li>  $s^2=s^2_n\frac{n}{n-1}=\frac{1}{n-1}\sum(x_i - \bar{x})^2$</li>
+</ul></li>
+</ul>
 
-<p>Check out the links at the header to know more!</p>
+<h3>Inferential</h3>
 
+<ul>
+<li>  <strong>SE</strong>: Standard Error</li>
+<li>  $SE_{\bar{x}} = \frac{s}{\sqrt{n}}$</li>
+<li>  <em>s</em><sup>2</sup> is an estimation of <em>σ</em><sup>2</sup> the variance of the population.</li>
+<li>  The higher the number of elements of the sample, the lower the SE.</li>
+</ul>
 
-  <ul class="post-list">
-    
-  </ul>
+<h3>Margin of error</h3>
 
+<p>$$ME = \pm z^* \cdot SE = \pm z^* \cdot\frac{\sigma}{\sqrt{n}}$$</p>
 
-</div>
+<h1>Types of tests</h1>
+
+<table style="width:100%;">
+<colgroup>
+<col width="14%" />
+<col width="23%" />
+<col width="18%" />
+<col width="32%" />
+<col width="10%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="center">degrees of freedom</th>
+<th align="left">Obvjective</th>
+<th align="left">Conditions</th>
+<th align="center">Formula</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><em>One sample</em></td>
+<td align="center"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="left">z-test</td>
+<td align="center">-</td>
+<td align="left"><span class="math inline">$\bar{x}$</span> vs <span class="math inline"><em>μ</em></span></td>
+<td align="left">- Normal distribution <br> -<span class="math inline"><em>σ</em></span> and <span class="math inline"><em>μ</em></span> are known</td>
+<td align="center"><span class="math inline">$z=\frac{\bar{x}-\mu}{\frac{\sigma}{\sqrt{n}}}$</span></td>
+</tr>
+<tr class="odd">
+<td align="left">t-test</td>
+<td align="center">n-1</td>
+<td align="left"><span class="math inline">$\bar{x}$</span> vs <span class="math inline"><em>μ</em></span></td>
+<td align="left">- Normal distribution <br> -<span class="math inline"><em>σ</em></span> unknown <br> -<span class="math inline"><em>μ</em></span> known</td>
+<td align="center"><span class="math inline">$t=\frac{\bar{x}-\mu}{\frac{s}{\sqrt{n}}}$</span></td>
+</tr>
+<tr class="even">
+<td align="left"><em>Two sample</em></td>
+<td align="center"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="left">t-test <br> independent samples</td>
+<td align="center"><span class="math inline"><em>d</em><em>f</em><sub>1</sub> + <em>d</em><em>f</em><sub>2</sub> = <em>n</em><sub>1</sub> + <em>n</em><sub>2</sub> − 2</span></td>
+<td align="left">- <span class="math inline"><em>σ</em><sub>1</sub></span>,<span class="math inline"><em>σ</em><sub>2</sub></span> unknown <br> - <span class="math inline"><em>σ</em><sub>1</sub> ∼ <em>σ</em><sub>2</sub></span></td>
+<td align="left">- Normal distribution <br> -<span class="math inline">$s^2_p=\frac{(n_1-1)s^2_1+(n_2-1)s^2_2}{n_1+n_2-2}$</span></td>
+<td align="center"><span class="math inline">$t=\frac{\bar{x}_1-\bar{x}_2}{s_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}$</span></td>
+</tr>
+<tr class="even">
+<td align="left">t-test <br> dependent samples</td>
+<td align="center"><span class="math inline"><em>n</em> − 1</span></td>
+<td align="left">- <span class="math inline"><em>σ</em><sub>1</sub></span>,<span class="math inline"><em>σ</em><sub>2</sub></span> unknown <br> - <span class="math inline"><em>σ</em><sub>1</sub> ∼ <em>σ</em><sub>2</sub></span> <br> <span class="math inline"><em>d</em><sub><em>i</em></sub> = <em>x</em><sub>1<em>i</em></sub> − <em>x</em><sub>2<em>i</em></sub></span></td>
+<td align="left">- Normal distribution <br> - 2 dependent samples (pre-treatment, post-treatment) <br> <span class="math inline">$s_d= \sqrt{\frac{\sum(d_i-\bar{d})^2}{n}}$</span></td>
+<td align="center"><span class="math inline">$t=\frac{\bar{d}}{\frac{s_d}{\sqrt{n}}}$</span></td>
+</tr>
+<tr class="odd">
+<td align="left"><em>Three or more samples</em></td>
+<td align="center"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="left">One way <br> ANOVA</td>
+<td align="center"><span class="math inline"><em>d</em><em>f</em><sub><em>b</em><em>t</em><em>w</em></sub> = <em>k</em> − 1</span> <br> <span class="math inline"><em>d</em><em>f</em><sub><em>w</em></sub> = <em>N</em> − <em>K</em></span> <br> <br> <span class="math inline"><em>N</em> = ∑<em>n</em><sub><em>k</em></sub></span> <br> N = number of elements <br> k= number of groups</td>
+<td align="left">- diff 3 or more population means</td>
+<td align="left">- Normal distribution <br> -<span class="math inline"><em>s</em><sub>1</sub><sup>2</sup></span>, <span class="math inline"><em>s</em><sub>2</sub><sup>2</sup></span> sample variances</td>
+<td align="center"><span class="math inline">$F= \frac{\frac{SS_{btw}}{df_{btw}}}{\frac{SS_w}{df_w}} = \frac{\sum n_k(\bar{x}_k-\bar{x}_G)^2/(K-1)}{\sum_{k=1}^{K}\sum_{i=1}^{n_k}(x_i-\bar{x}_k)^2/(N-K)}$</span></td>
+</tr>
+</tbody>
+</table>
+
+<h1>ANOVA</h1>
+
+<p>$$MS_{between}=\frac{SS_{btw}}{df_{btw}}= \frac{\sum_{k=1}^{K}n_k(\bar{x}_k-\bar{x}_G)^2}{K-1}$$</p>
+
+<p>$$MS_{within}= \frac{SS_w}{df_w} = \frac{\sum_{k=1}^{K}\sum_{i=1}^{n_k}(x_i-\bar{x}_k)^2}{N-K}$$</p>
+
+<p>for N the total number of elements and K the total number of groups.</p>
+
+<p>$$F= \frac{\frac{SS_{btw}}{df_{btw}}}{\frac{SS_w}{df_w}} = \frac{\sum n_k(\bar{x}_k-\bar{x}_G)^2/(K-1)}{\sum_{k=1}^{K}\sum_{i=1}^{n_k}(x_i-\bar{x}_k)^2/(N-K)}$$</p>
+
+<h3>F-statistic characteristics</h3>
+
+<ul>
+<li>  ∀ &gt; 0</li>
+<li>  + skewed</li>
+</ul>
+
+<p align="center">
+<img src="https://saylordotorg.github.io/text_introductory-statistics/section_15/75fd6a2d869b9403de8408b42a054db9.jpg" alt="F-distribution" width="300">
+</p>
+
+<h2>Cohen&#39;s d for multiple comparisons -&gt; effect size</h2>
+
+<p>$$d=\frac{\bar{x}_1-\bar{x}_2}{\sqrt{MS_{within}}}=\frac{\bar{x}_1-\bar{x}_2}{\sqrt{\frac{\sum(x_i-\bar{x}_k)^2}{N-k}}}$$</p>
+
+<h2>Eta-squared <em>η</em><sup>2</sup></h2>
+
+<p><em>η</em><sup>2</sup> : proportion of total variation due to between group differences (explained variation)</p>
+
+<p>$$\eta^2=\frac{SS_{between}}{SS_{total}}$$</p>
+
+<h1>Correlation coefficient (Pearson&#39;s r)</h1>
+
+<h3>For a population</h3>
+
+<p><a href="https://en.wikipedia.org/wiki/Pearson_correlation_coefficient">Reference:Wikipedia</a>
+$$ \rho_{X,Y}= \frac{cov(X,Y)}{\sigma_X\cdot \sigma_Y}$$
+ Pearson&#39;s correlation coefficient when applied to a population is commonly represented by the Greek letter ρ () and may be referred to as the populatiPearson&#39;s correlation coefficient when applied to a population is commonly represented by the Greek letter <em>ρ</em> and may be referred to as the population correlation coefficient or the population Pearson correlation coefficient.</p>
+
+<p>Where
+<em>c</em><em>o</em><em>v</em>(<em>X</em>, <em>Y</em>)=<em>E</em>[(<em>X</em> − <em>μ</em><sub><em>X</em></sub>)(<em>Y</em> − <em>μ</em><sub><em>Y</em></sub>)]
+ for <em>E</em>[<em>X</em>] the expected value of X or mean of X.</p>
+
+<p>When |<em>ρ</em>|=1 this means that data lies in perfect line.</p>
+
+<h3>For a sample</h3>
+
+<p>Pearson&#39;s correlation coefficient is represented as <em>r</em> when applied to a sample and it is called <em>sample correlation coefficient</em> or <em>sample Pearson correlation coefficient</em>.</p>
+
+<p>$$r= \frac{\sum^n_{i=1}(x_i-\bar{x})(y_i - \bar{y})}{\sqrt{\sum^n_{i=1}(x_i-\bar{x})^2}\sqrt{\sum^n_{i=1}(y_i-\bar{y})^2}}$$</p>
+
+<h2>Hypothesis testing</h2>
+
+<p>$$\begin{align*}H_o:&amp;\rho=0 \\ H_A: &amp;\rho&lt;0 \\ &amp;\rho &gt;0 \\ &amp;\rho\neq0 \end{align*}$$</p>
+
+<h3>Student&#39;s t-distribution</h3>
+
+<p>$$t=r\sqrt{\frac{n-2}{1-r^2}}$$</p>
+
+<p>Which is a <code>t-distribution</code> with <em>d</em><em>f</em> = <em>n</em> − 2, for n the number of elements in the sample.</p>
+
+<h1>Regression</h1>
+
+<p>Linear regression: $\hat{y}=a+bx$</p>
+
+<p>$$b = \frac{\sum_{i=1}^n(x_i-\bar{x})(y_i-\bar{y})}{\sum_{i=1}^n(x_i-\bar{x})^2} = r \frac{s_y}{s_x}$$</p>
+
+<p><strong>SD</strong>: how far values will fall from the regression line.</p>
+
+<p><em>SD of the estimate</em> = $\sqrt{\frac{\sum(y-\hat{y})^2}{n-2}}$</p>
+
+<p>$residuals=\sum{(y_i -\hat{y_i})^2}$</p>
+
+<p>Line of best fit: minimizes residuals</p>
+
+<p align="center">
+<img src="http://maths.nayland.school.nz/Year_13_Maths/3.9_Bivariate_data/Scatterplot_images/10_Reg5.gif" alt="F-distribution" width="200" height="200">
+</p>
+
+<h2>Confidence interval (CI)</h2>
+
+<h3>Population</h3>
+
+<ul>
+<li>  <em>β</em><sub>0</sub>: population <em>y</em><sub><em>i</em><em>n</em><em>t</em></sub></li>
+<li>  <em>β</em><sub>1</sub>: population slope</li>
+</ul>
+
+<h3>Sample</h3>
+
+<ul>
+<li>  a : sample <em>y</em><sub><em>i</em><em>n</em><em>t</em></sub></li>
+<li>  b : sample slope</li>
+</ul>
+
+<p>$$\begin{align*}H_o:&amp;\beta_1=0 \\ H_A: &amp;\beta_1\neq0 \\ &amp;\beta_1&gt;0 \\ &amp;\beta_1&lt;0 \end{align*}$$</p>
+
+<p><em>d</em><em>f</em> = <em>n</em> − 2, for n the number of elements in the sample.</p>
+
+<h1><em>χ</em><sup>2</sup> test for independence</h1>
+
+<p>$$\chi^2 = \sum_{i=1}^n{\frac{(f_{oi} - f_{ei})^2}{f_{ei}}}$$</p>
+
+<h3>1 variable with ≠ responses</h3>
+
+<p><em>d</em><em>f</em> = <em>n</em> − 1</p>
+
+<h3>2 or more variables</h3>
+
+<p><em>d</em><em>f</em> = (<em>n</em><sub><em>r</em><em>o</em><em>w</em><em>s</em></sub> − 1)(<em>n</em><sub><em>c</em><em>o</em><em>l</em><em>s</em></sub> − 1) for N the number of categories</p>
+
+<p>$$f_{ei} = \frac{(column\; total)(row\,total)}{grand \,total}$$</p>
+
+<ul>
+<li>  ∀ <em>χ</em><sup>2</sup> &gt; 0</li>
+<li>  ∀ one-directional test</li>
+<li>  <em>χ</em><sub><em>c</em><em>r</em><em>i</em><em>t</em></sub><sup>2</sup></li>
+</ul>
+
+  </div>
+
+</article>
 
       </div>
     </main>
