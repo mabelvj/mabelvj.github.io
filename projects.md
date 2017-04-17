@@ -9,7 +9,7 @@ navigation_weight: 4
 - Projects:
 
 
-	- [Project 4: Explore and Summarize Data](https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P4-explore-and-summarize-data/P4-Analysis_of_a_dataset.html) [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P4-explore-and-summarize-data) <span style="color:red"><sup><sup>*(IN PROGRESS)* </sup></sup></span>
+	- [Project 4: Explore and Summarize Data](https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P4-explore-and-summarize-data/P4-Analysis_of_a_dataset.html) [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P4-explore-and-summarize-data) <span style="color:green"><sup><sup>*(NEW)* </sup></sup></span>
 
 		<sub> **Statistical analysis**: Analysis of features influencing Red Wine quality</sub>
 
