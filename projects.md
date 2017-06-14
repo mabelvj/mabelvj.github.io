@@ -8,11 +8,11 @@ navigation_weight: 4
 
 - Projects:
 
-	- [Project 5: Data Visualization](http://bl.ocks.org/mabelvj/e35a77e8719c881f5567b7da1df43d53) <span style="color:green"><sup><sup>*(NEW)* </sup></sup></span>
+	- [Project 5: Data Visualization](http://bl.ocks.org/mabelvj/e35a77e8719c881f5567b7da1df43d53)[{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P5-data-visualization) <span style="color:green"><sup><sup>*(NEW)* </sup></sup></span>
 
 		<sub> **Data visualization**: D3 graph showing the relatioship between health expenditure and life expectancy at bird for countries in each continent.</sub>
 
-		<sub>Skills: **D3.js, JavaScript, HTML, CSS, storytelling ** </sub>
+		<sub>Skills: **D3.js, JavaScript, HTML, CSS, storytelling** </sub>
 
 
 
