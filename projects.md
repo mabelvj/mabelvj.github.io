@@ -7,17 +7,25 @@ navigation_weight: 4
 **Data Analyst Nanodegree [@Udacity](https://www.udacity.com):**
 
 - Projects:
+	- [Project 6: Data Visualization](http://bl.ocks.org/mabelvj/e35a77e8719c881f5567b7da1df43d53)[{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P6--data-visualization/P6) <span style="color:green"><sup><sup>*(NEW)* </sup></sup></span>
 
-	- [Project 5: Data Visualization](http://bl.ocks.org/mabelvj/e35a77e8719c881f5567b7da1df43d53)[{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P5-data-visualization) <span style="color:green"><sup><sup>*(NEW)* </sup></sup></span>
-
-		<sub> **Data visualization**: D3 graph showing the relatioship between health expenditure and life expectancy at birth for countries in each continent.</sub>
+		<sub> **Data visualization**: D3.js graph showing the relationship between health expenditure and life expectancy at birth for countries in each continent.</sub>
 
 		<sub>Skills: **D3.js, JavaScript, HTML, CSS, storytelling** </sub>
 
 
 
-	- [Project 4: Explore and Summarize Data](https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P4-explore-and-summarize-data/P4-Analysis_of_a_dataset.html) [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P4-explore-and-summarize-data) <span style="color:green"><sup><sup>*(NEW)* </sup></sup></span>
 
+	- [Project 5: Intro to Machine Learning](https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P5-intro-to-machine-learning/README.html)[{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P5-intro-to-machine-learning) 
+
+		<sub> **Machine learning**: detect people involved in the ENRON scandal from e-mail data.</sub>
+
+		<sub>Skills: **python, sklearn, Gaussian Naive Bayes** </sub>
+
+
+
+	- [Project 4: Explore and Summarize Data](https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P4-explore-and-summarize-data/P4-Analysis_of_a_dataset.html) [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P4-explore-and-summarize-data) 
+	
 		<sub> **Statistical analysis**: Analysis of features influencing Red Wine quality</sub>
 
 		<sub>Skills: **ggplot, Ggally, gridExtra, data.table, R, rmarkdown** </sub>
