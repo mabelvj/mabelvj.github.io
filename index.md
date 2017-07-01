@@ -41,7 +41,7 @@ I also have completed he [Data Analyst Nanodegree](https://www.udacity.com/cours
 I also love to apply all these skills to help other students from the [Deep Learning Nanodegree Foundation](https://www.udacity.com/course/deep-learning-nanodegree-foundation--nd101) and the [Artificial Intelligence Nanodegree](https://www.udacity.com/course/artificial-intelligence-nanodegree--nd889) as **Udacity Project Reviewer** in projects related to Deep Learning, Reinforcement Learning, Statistical Analysis and general Machine Learning.
 
 
-In addition, I spend my time as **classroom mentor** guiding students from the Machine Learning Nanodegree and the Data Analyst Nanodegree.
+In addition, I spend my time as a **Udacity Classroom Mentor** guiding students from the Machine Learning Nanodegree and the Data Analyst Nanodegree.
 
 
 
