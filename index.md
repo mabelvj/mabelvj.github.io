@@ -43,6 +43,7 @@ I also love to apply all these skills to help other students from the [Deep Lear
 
 In addition, I spend my time as a **Udacity Classroom Mentor** guiding students from the Machine Learning Nanodegree and the Data Analyst Nanodegree.
 
+Finally, I also work as an independent contractor for Machine Learning and Python development tasks at SerpicoDEV, striving at giving clients the best and most accurate solution for their needs.
 
 
 Check out the links at the header to know more!
