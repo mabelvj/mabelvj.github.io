@@ -28,7 +28,7 @@ navigation_weight: 1
 </style>
 
 
-My name is Mabel Villalba Jiménez. I'm Data Scientist and Python Developer.
+My name is Mabel Villalba Jiménez. I'm a Data Scientist and Python Developer.
 
 I work as a freelancer in Machine Learning and Python projects. I also collaborate regularly with [SerpicoDEV](http://serpicodev.com/) as a Machine Learning Engineer, striving at giving clients the best and most accurate solution for their needs.
 
