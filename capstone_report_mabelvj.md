@@ -18,6 +18,11 @@ Isabel María Villalba Jiménez
 
 Thursday  3<span class="s2">rd</span><span class="s3"> </span>November, 2016
 
+## Abstract
+In this project, it is presented how simple ConvNets can be used to label data from the image of the spectrogram, as it in many classification problems.
+
+In this case, the use of LeNet-5 has given a 0.44-0.958 AUC of Right Whales calls, which is really good given the low complexity of the network.
+
 # 1.[Definition](#i.-definition)
 ----------------
 
