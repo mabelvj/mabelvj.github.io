@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Right Whale call recognition using Convolutional Neural Networks'
+title: 'ConvNets'
 permalink: /capstone_mabelvj/
 bibliography: library.bib
 link-citations: True
@@ -8,8 +8,8 @@ fig_caption: yes
 navigation_weight: 3
 mathjax: "http://example.com/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 ---
-
-Capstone project: Machine Learning Engineer Nanodegree
+#Capstone project: Machine Learning Engineer Nanodegree
+Right Whale call recognition using Convolutional Neural Networks
 ===============
 > Code availabe here: **[https://github.com/mabelvj/MLNP/tree/master/capstone/code](https://github.com/mabelvj/MLNP/tree/master/capstone/code)**
 

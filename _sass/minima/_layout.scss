@@ -1,20 +1,23 @@
 /**
  * Site header
  */
+ body,html{
+  font-family: 'Raleway', serif;
+ }
 .site-header {
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: 56px;
 
-  // Positioning context for the mobile navigation icon
+  /*Positioning context for the mobile navigation icon*/
   position: relative;
   background: #00D9CB;
 }
 
 .site-title {
-  font-family: Raleway, cursive;
+  font-family: 'Raleway', cursive;
   text-rendering: optimizeLegibility;
-  -webkit-text-stroke: 0.1px; //improve legibility
+  -webkit-text-stroke: 0.1px; /*improve legibility*/
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale;
   font-size: 62px;

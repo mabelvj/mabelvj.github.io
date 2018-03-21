@@ -1,39 +1,224 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
-@charset "utf-8";
 
-// Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+@import "{{ site.theme }}";
 
-$spacing-unit:     30px;
+$spacing-unit:    20px !default;
+$header-size:     105px !default;
+$header-backgr:   #f0f0f040;
+$main-color:      #00D9CB;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+.profile-img{
+    shape-outside: circle(50%);
+    clip-path: circle(50%);
+    height: 150px;
+    width:150px; 
+    border-radius: 50%;
+    float:left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.nothing a:link {
+   color:inherit;}
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
 
-// Width of the content area
-$content-width:    1024px;
+#wrapper {
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  /*padding-right: $spacing-unit;
+  padding-left: $spacing-unit;*/
+  min-height: $header-size;
+  @extend %clearfix;
 
-$on-palm:          600px;
-$on-laptop:        1024px;
+  @media screen and (min-width: $on-palm){
+    max-width: -webkit-calc(#{$on-laptop} - (#{$spacing-unit}));
+    max-width:         calc(#{$on-laptop} - (#{$spacing-unit}));
+    padding-right: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+    font-size: 6vw;
 
-// Minima also includes a mixin for defining media queries.
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
+  }
+  @include media-query($on-palm) {
+    max-width: -webkit-calc(#{$on-palm} - (#{$spacing-unit}));
+    max-width:         calc(#{$on-palm} - (#{$spacing-unit}));
+    padding-right: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+    font-size: 6vw;
+  }
+}
 
-// Import partials from the `minima` theme.
-@import "minima";
+.site-header {
+    border-top: 5px solid $main-color;
+    border-bottom: none;
+    min-height: $header-size;
+    position: relative;
+    background: $header-backgr;
+
+}
+
+/* Title wrapper */
+#wrapper .site-title-wrapper{
+    max-height: $header-size;
+    min-height: 0.75*$header-size;
+    display: inline-flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.site-title {
+    font-family: Raleway, cursive;
+    text-rendering: optimizeLegibility;
+    -webkit-text-stroke: 0.1px;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 3.5vw;
+    font-weight: 400;
+    letter-spacing: -1px;
+    float: left;
+    
+    margin-top: auto;
+    margin-bottom: auto;
+
+    @media screen and (min-width: $on-palm) and (max-width: $on-laptop){
+      display: inline-block !important;
+      font-size: 28px;
+      padding: 0px !important;
+    }
+    @media screen and (min-width: $on-laptop){
+      display: inline-block !important;
+      font-size: 30px;
+      padding: 0px !important;
+    }
+    @include media-query($on-palm){
+      display: block !important;
+      font-size: 22px;
+    }
+
+
+}
+
+.site-title-wrapper > .profile-img{
+    shape-outside: circle(50%);
+    clip-path: circle(50%);
+    border-radius: 50%;
+    float:left;
+    max-height: 0.85*$header-size;
+    max-width:  0.85*$header-size;   
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+
+}
+
+
+
+
+.site-nav {
+  font-size: 0;
+  float: right;
+  line-height: 0.5vw;
+  padding-bottom: 0px;
+
+  position: relative;
+
+  .menu-icon {
+    display: none;
+  }
+  .collapse {
+  /*display: none;
+  visibility: hidden;*/
+  }
+  .page-link {
+
+    color: $text-color;
+    line-height: $base-line-height;
+    padding: 5px 10px 5px 10px !important;
+    display: inline-flex;
+
+    &.current{
+    background:  $grey-color-light;
+    background-blend-mode: lighten;
+    }
+
+    &.current:hover{
+
+      background-blend-mode: lighten;
+    }
+    &:hover{
+    background: $grey-color-medium;
+    }
+
+    @media screen and (min-width: $on-palm) and (max-width: $on-laptop){
+      display: inline-block !important;
+      font-size: 14px;
+    }
+    @media screen and (min-width: $on-laptop){
+      display: inline-block !important;
+      font-size: 16px;
+    }
+    @include media-query($on-palm){
+      display: block !important;
+      font-size:  3.5vw;
+    }
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 0px;/*20px*/
+    }
+    
+
+  }
+  
+  .collapse {
+  /*display: none;
+  visibility: hidden;*/
+  }
+
+
+ @include media-query($on-palm){
+    position: absolute;
+    top: 9px;
+    right: $spacing-unit / 2;
+    background-color: $background-color;
+    border: 1px solid $grey-color-light;
+    border-radius: 5px;
+    text-align: right;
+
+    .menu-icon {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 10px;
+      text-align: center;
+
+      > svg path {
+        fill: $grey-color-dark;
+      }
+    }
+
+    .trigger {
+      clear: both;
+      display: none;
+    }
+
+    &:hover .trigger {
+      display: block;
+      padding-bottom: 5px;
+    }
+
+    .page-link {
+      display: block;
+      padding: 5px 10px;
+
+      &:not(:last-child) {
+        margin-right: 0;
+      }
+      margin-left: 20px;
+    }
+  }
+}

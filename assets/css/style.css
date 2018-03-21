@@ -1,0 +1,19 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Profile image*/
+
+.profile-img{
+    shape-outside: circle(50%);
+    clip-path: circle(50%);
+    height: 150px;
+    width:150px; 
+    border-radius: 50%;
+    float:left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.nothing a:link {
+   color:inherit;}
