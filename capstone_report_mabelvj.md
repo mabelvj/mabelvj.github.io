@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'ConvNets'
+title: 'ConvNets Project'
 permalink: /capstone_mabelvj/
 bibliography: library.bib
 link-citations: True
