@@ -25,5 +25,3 @@ I also love contributing to Open Source projects like [Scikit-Learn](ttps://gith
 
 Check out the links at the header to know more!
 
-
-
