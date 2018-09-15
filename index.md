@@ -21,7 +21,9 @@ In addition, I spend my time working for [Udacity](https://www.udacity.com/) as:
 - **Classroom Mentor**: guiding students from the [Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009) and the [Data Analyst Nanodegree](https://www.udacity.com/course/data-analyst-nanodegree--nd002).
 - **Project Reviewer**: helping students from the [Deep Learning Nanodegree Foundation](https://www.udacity.com/course/deep-learning-nanodegree-foundation--nd101) and the [Artificial Intelligence Nanodegree](https://www.udacity.com/course/artificial-intelligence-nanodegree--nd889) as in projects related to Deep Learning, Reinforcement Learning, Statistical Analysis and general Machine Learning.
 
-I also love contributing to Open Source projects like the Python libraries [Scikit-Learn](ttps://github.com/mabelvj/scikit-learn), for Machine Learning and [Pandas](https://github.com/pandas-dev), for data strucure and data analysis. See the list of contributions in the [Open Source Contributions](pullrequests) section.
+
+I also love contributing to Open Source projects like the Python libraries [Scikit-Learn](ttps://github.com/mabelvj/scikit-learn), for Machine Learning and [Pandas](https://github.com/pandas-dev), for data structure and data analysis. See the list of contributions in the [Open Source Contributions](pullrequests) section.
+
 
 Check out the links at the header to know more!
 
