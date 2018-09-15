@@ -9,7 +9,7 @@ output:
     preserve_yaml: TRUE
     md_extensions: +emoji+citations+header_attributes
 link-citations: yes
-navigation_weight: 5
+navigation_weight: 6
 #https://www.rdocumentation.org/packages/rmarkdown/versions/1.3/topics/md_document
 #My header {-} = # My header {.unnumbered}
 ---

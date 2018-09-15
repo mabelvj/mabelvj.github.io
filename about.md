@@ -1,7 +1,7 @@
 ---
 title: About
 layout: page
-navigation_weight: 6
+navigation_weight: 7
 ---
 
 Telecommunication engineer and Data passionate.

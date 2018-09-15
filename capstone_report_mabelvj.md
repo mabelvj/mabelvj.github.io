@@ -5,7 +5,7 @@ permalink: /capstone_mabelvj/
 bibliography: library.bib
 link-citations: True
 fig_caption: yes 
-navigation_weight: 3
+navigation_weight: 4
 mathjax: "http://example.com/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 ---
 #Capstone project: Machine Learning Engineer Nanodegree
