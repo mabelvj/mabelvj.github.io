@@ -29,6 +29,7 @@ navigation_weight: 3
 ## **[scrapy](https://github.com/scrapy/scrapy)**
 
 - [[MRG+1] Itemloader errors](https://github.com/scrapy/scrapy/pull/3840)
+- [Raise error when start_url found instead of start_urls. #4170](https://github.com/scrapy/scrapy/pull/4170)
 
 
 ## **[shub](https://github.com/scrapinghub/shub)**
