@@ -8,6 +8,8 @@ navigation_weight: 3
 
 ### **[pandas](https://github.com/pandas-dev/pandas)**
 
+- [BUG: Groupby quantiles incorrect bins #33200](https://github.com/pandas-dev/pandas/pull/33644)
+- [BUG: Add unordered option to pandas.cut (#33141)](https://github.com/pandas-dev/pandas/pull/33480)
 - [BUG: pivot_table not returning correct type when margin=True and aggfunc='mean'](https://github.com/pandas-dev/pandas/pull/28248)
 
 - [DOC: update pandas.DataFrame.boxplot docstring. Fixes #8847](https://github.com/pandas-dev/pandas/pull/20152) (03-10-18)
