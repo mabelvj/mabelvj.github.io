@@ -15,13 +15,12 @@ navigation_weight: 1
 My name is Mabel Villalba Jiménez. I'm a Data Engineer, with experience as Python Developer, Data Scientist and Data Analyst.
 
 
-I currently work as a Data Engineer at SEAT:CODE in projects related to Predictive Maintenance of welding spots using Machine Learning for the SEAT Factory in Martorell.
+I currently work as a Data Engineer at [SEAT:CODE](https://code.seat/) in projects related to Predictive Maintenance of welding spots using Machine Learning for the [SEAT](https://www.seat.es/) Factory in Martorell.
 
 I have experience in building and maintaining software in Python, building CI/CD pipelines, implementing unit testing and code quality checks.
 I also have experience with the AWS stack: Kinesis Data Streams, Lambda, s3, Glue, SageMaker, Athena, QuickSight, CloudFormation, CodeBuild, CodePipeline.
 
 I have worked in areas related with Data Extraction, Processing and Retrieving, Data Analysis and Machine Learning (i.e. Quantitative Trading, Time Series, Model Optimization, Web Scraping, Statistical Analysis…)
-
 
 In addition, I also worked as a Project Reviewer and Classroom Mentor for [Udacity](https://www.udacity.com/), reviewing projects from several nanodegrees in areas like Data Analysis and Visualization, Deep Learning, Statistical Analysis and general Machine Learning.
 
