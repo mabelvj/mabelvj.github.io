@@ -1,7 +1,7 @@
 ---
 title: Software projects
 layout: page
-navigation_weight: 2
+navigation_weight: 3
 ---
 
 ## **Python**
