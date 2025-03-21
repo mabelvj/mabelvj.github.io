@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=RocknRoll+One&display=swap');
+
+:root {
+      --main-bg-color: #f7f5f2; /* Variable para el color de fondo */
+      --text-color: #2a2a2a; /* (Opcional) Variable para color de texto */
+      --main-font-family: "Roboto Mono", sans-serif;
+}
+
+body, header, footer {
+      background-color: var(--main-bg-color);
+      color: var(--text-color);
+      margin: 0;
+      padding: 0;
+      font-family:  var(--main-font-family);
+      font-size: 1em;
+      font-weight: normal;
+}
+
+@media (max-width:800px) {
+  .container {
+      max-width: calc(90% - 20px);
+      margin:auto;
+  }
+    body, header, footer {
+      font-size: 0.75em;
+      font-weight: normal;
+    }
+    h1 {
+    font-size: 1.25em;
+    }
+    h2 {
+    font-size: 1em;
+    }
+}
+
+
+.heading{
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 100%;
+}
+.column {
+    float: left;
+}
+
+.left {
+    width: 25%;
+
+}
+
+.right {
+    width: 72%;
+    margin-left: 3%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    background: var(--main-bg-color);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.header {
+    text-align: left;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 2em;
+    font-weight: normal;
+    color: #1767e5;
+    margin-block-start: 0.25em;
+    margin-block-end: 0.25em;
+}
+
+h2{
+    font-weight: normal;
+}
+
+.header h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+    margin: 5px 0;
+    color: #444;
+    margin-block-start: 0.25em;
+    margin-block-end: 0.25em;
+}
+
+.header p {
+    font-size: 14px;
+    margin: 5px 0 0;
+    color: #666;
+}
+
+
+.cv span{
+    font-size: 1.5em !important; /* Tamaño grande para el título */
+    font-weight: normal; /* Negrita */
+    text-align: left; /* Centrado */
+    color: #1767e5;
+}
+
+.contact-info {
+    color: #333;
+    align-content: initial;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 50%;
+}
+
+a {
+    color: #1d3557;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    border-bottom: 2px solid #1d3557;
+    padding-bottom: 5px;
+    color: #1d3557;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul.items li {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+ul.experience-list li {
+    margin-bottom: 15px;
+}
+
+ul.experience-list li strong {
+    color: #1d3557;
+    font-weight: bold;
+}
+
+ul.experience-list li ul {
+    margin-top: 5px;
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+ul.stackoverflow-items li {
+    list-style-type: none;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+ul.stackoverflow-items li a {
+    color: #1d3557;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul.stackoverflow-items li a:hover {
+    text-decoration: underline;
+}
+
+ul.stackoverflow-items li strong {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #a8dadc;
+    color: #1d3557;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+ul.stackoverflow-items li span {
+    color: #6c757d;
+    font-size: 0.9em;
+    float: right;
+}
+
+.items strong {
+    font-size: 18px;
+    color: #111;
+}
+
+.position {
+    font-size: 18px;
+    color: #555;
+}
+
+.position span {
+    color: #888;
+}
+
+.timeinterval {
+    font-style: italic;
+    color: #666;
+}
+
+.company {
+    margin-bottom: 20px;
+}
+
+.company h3 {
+    font-size: 20px;
+    margin: 5px 0;
+    color: #444;
+}
+
+.company p {
+    margin: 3px 0;
+    font-size: 15px;
+    color: #666;
+}
+
+.company p:first-of-type {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilos específicos para proyectos */
+.projects a {
+    color: #00BFFF;
+}
+
+.projects a:hover {
+    color: #FFA500;
+}
+
+/* Estilos para habilidades */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    background: #444;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: white;
+}
+
+/* Estilos para competiciones */
+.competitions li {
+    color: #00FF00;
+}
+
+/* Estilos para trabajo voluntario */
+.volunteer-work {
+    margin-top: 20px;
+}
+
+/* Enlaces dentro de experiencia y proyectos */
+.experience-list a, .projects a {
+    color: #1767e5;
+    font-weight: bold;
+}
+
+.experience-list a:hover, .projects a:hover {
+    color: #FF8C00;
+}
+
+
+.education-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.education-list li {
+    margin-bottom: 20px;
+    padding-left: 15px;
+    border-left: 4px solid #2D6A4F;
+}
+
+.education-list li strong {
+    color: #2D6A4F;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.education-list li span {
+    color: #40916C;
+    font-weight: normal;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.education-list li p {
+    color: #555;
+    font-size: 14px;
+    margin: 5px 0 0;
+}
