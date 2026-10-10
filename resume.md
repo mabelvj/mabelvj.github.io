@@ -5,7 +5,7 @@ navigation_weight: 2
 ---
 **Email**: [mabelvj@gmail.com](mailto:mabelvj@gmail.com)   
 **LinkedIn**: [mabelvj](https://www.linkedin.com/in/mabelvj)  
-**Website**: [mabelvj.github.io](https://mabelvj.github.io)  
+**Website**: [mabelvj.com](https://mabelvj.com)  
 **GitHub**: [mabelvj](https://github.com/mabelvj)  
 **StackOverflow**: [mabel-villalba](https://stackoverflow.com/users/9051284/mabel-villalba)
 
@@ -113,7 +113,7 @@ navigation_weight: 2
   - [Fixed error in RidgeCV](https://github.com/scikit-learn/scikit-learn/pull/10397)
   - [Added `store_cv_values` to RidgeClassifierCV](https://github.com/scikit-learn/scikit-learn/pull/10297)
   - Contributed to bug fixes and documentation improvements in [Pandas](https://github.com/pandas-dev/pandas/pull/33644) and [Scrapy](https://github.com/scrapy/scrapy).
-  - **More Contributions**: [View all on my website](https://mabelvj.github.io/pullrequests/).
+  - **More Contributions**: [View all on my website](https://mabelvj.com/pullrequests/).
 
 - **StackOverflow**:  
   - Answered questions related to Python, Pandas, Matplotlib, and machine learning with top tags including Pandas, Python, and Scikit-learn.
@@ -124,4 +124,4 @@ navigation_weight: 2
 ## Personal Projects
 
 - **[Stocks Dashboard in Bokeh](https://github.com/stocksdashboard/stocks_dashboard_bokeh)** – Built using Bokeh (Python), displaying time series data automatically with customizable parameters.
-- **[Right Whale Call Recognition](https://mabelvj.github.io/capstone_mabelvj/)** – Implemented a Convolutional Neural Network for audio recognition with 95% accuracy (AUC).
+- **[Right Whale Call Recognition](https://mabelvj.com/capstone_mabelvj/)** – Implemented a Convolutional Neural Network for audio recognition with 95% accuracy (AUC).
