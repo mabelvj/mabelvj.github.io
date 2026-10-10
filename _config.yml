@@ -4,10 +4,10 @@ email: mabelvj@gmail.com
 description: "Data Engineer. Projects, open source contributions and resume."
 author: Mabel Villalba Jiménez
 baseurl: ""
-url: "https://mabelvj.github.io"
+url: "https://mabelvj.com"
 github_username:  mabelvj
 linkedin_username:  mabelvj
-resume_link: "https://mabelvj.github.io/mabelvj_cv.pdf"
+resume_link: "/mabelvj_cv.pdf"
 
 # Used by jekyll-seo-tag for the structured data (JSON-LD) on every page
 social:
