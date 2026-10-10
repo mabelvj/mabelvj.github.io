@@ -1,12 +1,36 @@
 # Site settings
 title: Mabel Villalba Jiménez
 email: mabelvj@gmail.com
-description: "Projects and stuff"
+description: "Data Engineer. Projects, open source contributions and resume."
+author: Mabel Villalba Jiménez
 baseurl: ""
 url: "https://mabelvj.github.io"
 github_username:  mabelvj
 linkedin_username:  mabelvj
 resume_link: "https://mabelvj.github.io/mabelvj_cv.pdf"
+
+# Used by jekyll-seo-tag for the structured data (JSON-LD) on every page
+social:
+  name: Mabel Villalba Jiménez
+  links:
+    - https://github.com/mabelvj
+    - https://www.linkedin.com/in/mabelvj
+    - https://stackoverflow.com/users/9051284/mabel-villalba
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Jekyll 3 (used by GitHub Pages) replaces its default exclude list when this
+# is set, so the defaults are repeated here.
+exclude:
+  - README.md
+  - script/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
 
 # Build settings
 #markdown: kramdown

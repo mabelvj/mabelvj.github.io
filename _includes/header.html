@@ -23,7 +23,7 @@
     </nav>
 
     <div class="site-title-wrapper">
-      <img class="profile-img" src="../img/photo_small.jpg">
+      <img class="profile-img" src="{{ "/img/photo_small.jpg" | relative_url }}" alt="{{ site.title | escape }}">
       <a class="site-title" href="{{ "/" | relative_url}}">
           {{ site.title | escape }}</a>
     </div>

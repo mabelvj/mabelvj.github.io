@@ -10,6 +10,7 @@ output:
     md_extensions: +emoji+citations+header_attributes
 link-citations: yes
 navigation_weight: 6
+mathjax: true
 #https://www.rdocumentation.org/packages/rmarkdown/versions/1.3/topics/md_document
 #My header {-} = # My header {.unnumbered}
 ---
@@ -36,7 +37,7 @@ Variance
 
 ### Margin of error
 
-$$ME = \\pm z^\* \\cdot SE = \\pm z^\* \\cdot\\frac{\\sigma}{\\sqrt{n}}$$
+$$ME = \pm z^* \cdot SE = \pm z^* \cdot\frac{\sigma}{\sqrt{n}}$$
 
 Types of tests
 ==============
@@ -121,13 +122,13 @@ Types of tests
 ANOVA
 =====
 
-$$MS\_{between}=\\frac{SS\_{btw}}{df\_{btw}}= \\frac{\\sum\_{k=1}^{K}n\_k(\\bar{x}\_k-\\bar{x}\_G)^2}{K-1}$$
+$$MS_{between}=\frac{SS_{btw}}{df_{btw}}= \frac{\sum_{k=1}^{K}n_k(\bar{x}_k-\bar{x}_G)^2}{K-1}$$
 
-$$MS\_{within}= \\frac{SS\_w}{df\_w} = \\frac{\\sum\_{k=1}^{K}\\sum\_{i=1}^{n\_k}(x\_i-\\bar{x}\_k)^2}{N-K}$$
+$$MS_{within}= \frac{SS_w}{df_w} = \frac{\sum_{k=1}^{K}\sum_{i=1}^{n_k}(x_i-\bar{x}_k)^2}{N-K}$$
 
 for N the total number of elements and K the total number of groups.
 
-$$F= \\frac{\\frac{SS\_{btw}}{df\_{btw}}}{\\frac{SS\_w}{df\_w}} = \\frac{\\sum n\_k(\\bar{x}\_k-\\bar{x}\_G)^2/(K-1)}{\\sum\_{k=1}^{K}\\sum\_{i=1}^{n\_k}(x\_i-\\bar{x}\_k)^2/(N-K)}$$
+$$F= \frac{\frac{SS_{btw}}{df_{btw}}}{\frac{SS_w}{df_w}} = \frac{\sum n_k(\bar{x}_k-\bar{x}_G)^2/(K-1)}{\sum_{k=1}^{K}\sum_{i=1}^{n_k}(x_i-\bar{x}_k)^2/(N-K)}$$
 
 ### F-statistic characteristics
 
@@ -140,21 +141,21 @@ $$F= \\frac{\\frac{SS\_{btw}}{df\_{btw}}}{\\frac{SS\_w}{df\_w}} = \\frac{\\sum n
 Cohen's d for multiple comparisons -&gt; effect size
 ----------------------------------------------------
 
-$$d=\\frac{\\bar{x}\_1-\\bar{x}\_2}{\\sqrt{MS\_{within}}}=\\frac{\\bar{x}\_1-\\bar{x}\_2}{\\sqrt{\\frac{\\sum(x\_i-\\bar{x}\_k)^2}{N-k}}}$$
+$$d=\frac{\bar{x}_1-\bar{x}_2}{\sqrt{MS_{within}}}=\frac{\bar{x}_1-\bar{x}_2}{\sqrt{\frac{\sum(x_i-\bar{x}_k)^2}{N-k}}}$$
 
 Eta-squared *η*<sup>2</sup>
 ---------------------------
 
 *η*<sup>2</sup> : proportion of total variation due to between group differences (explained variation)
 
-$$\\eta^2=\\frac{SS\_{between}}{SS\_{total}}$$
+$$\eta^2=\frac{SS_{between}}{SS_{total}}$$
 
 Correlation coefficient (Pearson's r)
 =====================================
 
 ### For a population
 
-$$ \\rho\_{X,Y}= \\frac{cov(X,Y)}{\\sigma\_X\\cdot \\sigma\_Y}$$
+$$ \rho_{X,Y}= \frac{cov(X,Y)}{\sigma_X\cdot \sigma_Y}$$
  Pearson's correlation coefficient when applied to a population is commonly represented by the Greek letter *ρ* and may be referred to as the population correlation coefficient or the population Pearson correlation coefficient.
 
 Where
@@ -167,16 +168,16 @@ When |*ρ*|=1 this means that data lies in perfect line.
 
 Pearson's correlation coefficient is represented as *r* when applied to a sample and it is called *sample correlation coefficient* or *sample Pearson correlation coefficient*.
 
-$$r= \\frac{\\sum^n\_{i=1}(x\_i-\\bar{x})(y\_i - \\bar{y})}{\\sqrt{\\sum^n\_{i=1}(x\_i-\\bar{x})^2}\\sqrt{\\sum^n\_{i=1}(y\_i-\\bar{y})^2}}$$
+$$r= \frac{\sum^n_{i=1}(x_i-\bar{x})(y_i - \bar{y})}{\sqrt{\sum^n_{i=1}(x_i-\bar{x})^2}\sqrt{\sum^n_{i=1}(y_i-\bar{y})^2}}$$
 
 Hypothesis testing
 ------------------
 
-$$\\begin{align\*}H\_o:&\\rho=0 \\\\ H\_A: &\\rho&lt;0 \\\\ &\\rho &gt;0 \\\\ &\\rho\\neq0 \\end{align\*}$$
+$$\begin{align*}H_o:&\rho=0 \\ H_A: &\rho<0 \\ &\rho >0 \\ &\rho\neq0 \end{align*}$$
 
 ### Student's t-distribution
 
-$$t=r\\sqrt{\\frac{n-2}{1-r^2}}$$
+$$t=r\sqrt{\frac{n-2}{1-r^2}}$$
 
 Which is a `t-distribution` with *d**f* = *n* − 2, for n the number of elements in the sample.
 
@@ -185,7 +186,7 @@ Regression
 
 Linear regression: $\\hat{y}=a+bx$
 
-$$b = \\frac{\\sum\_{i=1}^n(x\_i-\\bar{x})(y\_i-\\bar{y})}{\\sum\_{i=1}^n(x\_i-\\bar{x})^2} = r \\frac{s\_y}{s\_x}$$
+$$b = \frac{\sum_{i=1}^n(x_i-\bar{x})(y_i-\bar{y})}{\sum_{i=1}^n(x_i-\bar{x})^2} = r \frac{s_y}{s_x}$$
 
 **SD**: how far values will fall from the regression line.
 
@@ -213,14 +214,14 @@ Confidence interval (CI)
 
 ### Hypothesis testing
 
-$$\\begin{align\*}H\_o:&\\beta\_1=0 \\\\ H\_A: &\\beta\_1\\neq0 \\\\ &\\beta\_1&gt;0 \\\\ &\\beta\_1&lt;0 \\end{align\*}$$
+$$\begin{align*}H_o:&\beta_1=0 \\ H_A: &\beta_1\neq0 \\ &\beta_1>0 \\ &\beta_1<0 \end{align*}$$
 
 *d**f* = *n* − 2, for n the number of elements in the sample.
 
 *χ*<sup>2</sup> test for independence
 =====================================
 
-$$\\chi^2 = \\sum\_{i=1}^n{\\frac{(f\_{oi} - f\_{ei})^2}{f\_{ei}}}$$
+$$\chi^2 = \sum_{i=1}^n{\frac{(f_{oi} - f_{ei})^2}{f_{ei}}}$$
 
 -   ∀ *χ*<sup>2</sup> &gt; 0
 -   ∀ one-directional test
@@ -234,7 +235,7 @@ $$\\chi^2 = \\sum\_{i=1}^n{\\frac{(f\_{oi} - f\_{ei})^2}{f\_{ei}}}$$
 
 *d**f* = (*n*<sub>*r**o**w**s*</sub> − 1)(*n*<sub>*c**o**l**s*</sub> − 1) for N the number of categories
 
-$$f\_{ei} = \\frac{(column\\; total)(row\\,total)}{grand \\,total}$$
+$$f_{ei} = \frac{(column\; total)(row\,total)}{grand \,total}$$
 
 Binomial distribution
 ---------------------
@@ -254,7 +255,7 @@ $SE = \\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{N}}$
 A distribution can be considered normal if $N\\hat{p}&gt;5$ or $N(1-\\hat{p})&gt;5$
 
 **Margin of error**
-$$m = z\\cdot SE = z\\cdot\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{N}}$$
+$$m = z\cdot SE = z\cdot\sqrt{\frac{\hat{p}(1-\hat{p})}{N}}$$
 
 Pooled Standard Error (*S**E*<sub>*p*</sub>)
 --------------------------------------------
@@ -263,13 +264,13 @@ Pooled Standard Error (*S**E*<sub>*p*</sub>)
 
 *X*<sub>*c**o**n**t**r**o**l*</sub>, *X*<sub>*e**x**p**e**r**i**m**e**n**t*</sub>, *N*<sub>*c**o**n**t**r**o**l*</sub>, *N*<sub>*e**x**p**e**r**i**m**e**n**t*</sub>
 
-$$\\hat{p}\_{p}= \\frac{X\_{control}+X\_{exp}}{N\_{control}+N\_{exp}}$$
+$$\hat{p}_{p}= \frac{X_{control}+X_{exp}}{N_{control}+N_{exp}}$$
  Pooled Standard Error (*S**E*<sub>*p*</sub>)
-$$SE\_{p}= \\sqrt{\\hat{p}\_p\\cdot(1-\\hat{p}\_p)\\left(\\frac{1}{N\_{control}}+\\frac{1}{N\_{exp}}\\right)}$$
-$$\\hat{d}=\\hat{p}\_{exp}-\\hat{p}\_{control}$$
+$$SE_{p}= \sqrt{\hat{p}_p\cdot(1-\hat{p}_p)\left(\frac{1}{N_{control}}+\frac{1}{N_{exp}}\right)}$$
+$$\hat{d}=\hat{p}_{exp}-\hat{p}_{control}$$
 
-$$\\begin{align\*}&H\_0:& d=0 &\\rightarrow \\hat{d}\\sim N(0,SE\_{p}) \\\\
-                &H\_A:& d\\neq 0 & \\rightarrow Reject\\; Null:|\\hat{d}| &gt; z^\* SE\_{p}\\end{align\*}$$
+$$\begin{align*}&H_0:& d=0 &\rightarrow \hat{d}\sim N(0,SE_{p}) \\
+                &H_A:& d\neq 0 & \rightarrow Reject\; Null:|\hat{d}| > z^* SE_{p}\end{align*}$$
 
 <p align="center">
 <img src="http://wweb.uta.edu/faculty/ricard/Images/Statistical-Power.gif" alt="Power-sensitivity" width="300">

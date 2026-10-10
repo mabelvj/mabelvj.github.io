@@ -16,7 +16,7 @@ navigation_weight: 6
 
 
 
-	- [Project 5: Intro to Machine Learning](https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P5-intro-to-machine-learning/README.html)[{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P5-intro-to-machine-learning) 
+	- [Project 5: Intro to Machine Learning](https://raw.githack.com/mabelvj/data-analyst-nanodegree/master/P5-intro-to-machine-learning/README.html)[{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P5-intro-to-machine-learning) 
 
 		<sub> **Machine learning**: detect people involved in the ENRON scandal from e-mail data.</sub>
 
@@ -24,27 +24,27 @@ navigation_weight: 6
 
 
 
-	- [Project 4: Explore and Summarize Data](https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P4-explore-and-summarize-data/P4-Analysis_of_a_dataset.html) [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P4-explore-and-summarize-data) 
+	- [Project 4: Explore and Summarize Data](https://raw.githack.com/mabelvj/data-analyst-nanodegree/master/P4-explore-and-summarize-data/P4-Analysis_of_a_dataset.html) [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P4-explore-and-summarize-data) 
 	
 		<sub> **Statistical analysis**: Analysis of features influencing Red Wine quality</sub>
 
 		<sub>Skills: **ggplot, Ggally, gridExtra, data.table, R, rmarkdown** </sub>
 
 
-	- [Project 3: OpenStreetMap Data Wrangling with SQL](https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P3-wrangle-openstreetmap-data/Project_3_OpenStreetMap_SQL/Project_3_OpenStreetMap.html) [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P3-wrangle-openstreetmap-data) 
+	- [Project 3: OpenStreetMap Data Wrangling with SQL](https://raw.githack.com/mabelvj/data-analyst-nanodegree/master/P3-wrangle-openstreetmap-data/Project_3_OpenStreetMap_SQL/Project_3_OpenStreetMap.html) [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P3-wrangle-openstreetmap-data) 
 
 		<sub> **Relational Databases**: Cleaning of OpenStreetMap data for the Málaga area using data munging techniques, such as assessing the quality of the data for validity, accuracy, completeness, consistency and uniformity using a SQL data schema. </sub>
 
 		<sub>Skills: **SQL, xml, OpenStreetMap**</sub>
 
-	- [Project 2: Investigate a dataset](https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P2-investigate-dataset/P2_report.html) [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P2-investigate-dataset)
+	- [Project 2: Investigate a dataset](https://raw.githack.com/mabelvj/data-analyst-nanodegree/master/P2-investigate-dataset/P2_report.html) [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P2-investigate-dataset)
 
 		<sub>**Statistical analysis**: Investigate a dataset using in Python and perform chi-squared test for independence to draw conclusions using the module stats from scipy.</sub>
 
 		<sub>Skills: **chi-squared test, pandas, numpy, stats, scipy, Jupyter-notebook**
 		</sub>
 
-	- [Project 1: Test a Perceptual Phenomenon](https://rawgit.com/mabelvj/data-analyst-nanodegree/master/P1-test-perceptual-phenomenon/P1-Test_a_Perceptual_Phenomenon.html) [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P1-test-perceptual-phenomenon)
+	- [Project 1: Test a Perceptual Phenomenon](https://raw.githack.com/mabelvj/data-analyst-nanodegree/master/P1-test-perceptual-phenomenon/P1-Test_a_Perceptual_Phenomenon.html) [{%include icon-github.svg%}](https://github.com/mabelvj/data-analyst-nanodegree/tree/master/P1-test-perceptual-phenomenon)
 
 		<sub> **Statistical analysis**: Use descriptive statistics and a statistical test to analyze the Stroop effect, a classic result of experimental psychology. </sub>
 
@@ -63,11 +63,11 @@ navigation_weight: 6
 
 - Projects:
 
-	- [Project 4 : Smartcab train](https://rawgit.com/mabelvj/MLNP/master/P4_smartcab/smartcab_report.html) [{%include icon-github.svg%}](https://github.com/mabelvj/MLNP/tree/master/P4_smartcab)
+	- [Project 4 : Smartcab train](https://raw.githack.com/mabelvj/MLNP/master/P4_smartcab/smartcab_report.html) [{%include icon-github.svg%}](https://github.com/mabelvj/MLNP/tree/master/P4_smartcab)
 
 		<sub>**Reinforcement Learning**: Training of a smartcab to drive following traffic rules in a populated environment.</sub>
 
-	- [Project 3 : Creating customer segments](https://rawgit.com/mabelvj/MLNP/master/P3_creating_customer_segments/customer_segments.html) [{%include icon-github.svg%}](https://github.com/mabelvj/MLNP/tree/master/P3_creating_customer_segments)
+	- [Project 3 : Creating customer segments](https://raw.githack.com/mabelvj/MLNP/master/P3_creating_customer_segments/customer_segments.html) [{%include icon-github.svg%}](https://github.com/mabelvj/MLNP/tree/master/P3_creating_customer_segments)
 
 		<sub>**Unsupervised Learning**: Analysis of a dataset containing data on various customers' annual spending amounts (reported in monetary units) of diverse product categories for internal structure.  </sub>
 
@@ -78,7 +78,7 @@ navigation_weight: 6
 		<sub>Skills: **pandas, matplotlib, numpy, scikit-learn**
 		</sub>
 
-	- [Project 2 : Building a Student Intervention System](https://rawgit.com/mabelvj/MLNP/master/P2_student_intervention/student_intervention.html) [{%include icon-github.svg%}](https://github.com/mabelvj/MLNP/tree/master/P2_student_intervention)
+	- [Project 2 : Building a Student Intervention System](https://raw.githack.com/mabelvj/MLNP/master/P2_student_intervention/student_intervention.html) [{%include icon-github.svg%}](https://github.com/mabelvj/MLNP/tree/master/P2_student_intervention)
 
 		<sub> **Supervised Learning**: Analysis of a dataset of students at high school to determine whether they will or will not pass the course in order to have an intervention of the student and prevent from failing the course.</sub>
 
@@ -88,14 +88,14 @@ navigation_weight: 6
 		<sub>Skills: **pandas, matplotlib, numpy, scikit-learn, Jupyter-notebook**
 		</sub>
 
-	- [Project 1 : Predicting Boston Housing Prices](https://rawgit.com/mabelvj/MLNP/master/P1_boston_housing/boston_housing.html) [{%include icon-github.svg%}](https://github.com/mabelvj/MLNP/tree/master/P1_boston_housing)
+	- [Project 1 : Predicting Boston Housing Prices](https://raw.githack.com/mabelvj/MLNP/master/P1_boston_housing/boston_housing.html) [{%include icon-github.svg%}](https://github.com/mabelvj/MLNP/tree/master/P1_boston_housing)
 
 		<sub> **Model Evaluation & Validation**: Development of model for the estimation of house prices in Boston.</sub>
 
 		<sub>Skills: **matplotlib, numpy, scikit-learn, Jupyter-notebook**
 		</sub>
 
-	- [Project 0 : Titanic Survival explorations](https://rawgit.com/mabelvj/MLNP/master/P0_titanic/Titanic_Survival_Exploration.html) [{%include icon-github.svg%}](https://github.com/mabelvj/MLNP/tree/master/P0_titanic)
+	- [Project 0 : Titanic Survival explorations](https://raw.githack.com/mabelvj/MLNP/master/P0_titanic/Titanic_Survival_Exploration.html) [{%include icon-github.svg%}](https://github.com/mabelvj/MLNP/tree/master/P0_titanic)
 
 		<sub> Exploration of the survival rate of the Titanic's passengers according to their characteristics. </sub>
 

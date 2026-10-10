@@ -28,7 +28,7 @@ In addition, I also worked as a Project Reviewer and Classroom Mentor for [Udaci
 - **Project Reviewer**: helping students from the [Deep Learning Nanodegree Foundation](https://www.udacity.com/course/deep-learning-nanodegree-foundation--nd101) and the [Artificial Intelligence Nanodegree](https://www.udacity.com/course/artificial-intelligence-nanodegree--nd889) as in projects related to Deep Learning, Reinforcement Learning, Statistical Analysis and general Machine Learning.
 
 
-I love contributing to Open Source projects like the Python libraries [Scikit-Learn](ttps://github.com/mabelvj/scikit-learn), for Machine Learning and [Pandas](https://github.com/pandas-dev), for data structure and data analysis. See the list of contributions in the [Open Source Contributions](pullrequests) section.
+I love contributing to Open Source projects like the Python libraries [Scikit-Learn](https://github.com/mabelvj/scikit-learn), for Machine Learning and [Pandas](https://github.com/pandas-dev), for data structure and data analysis. See the list of contributions in the [Open Source Contributions](pullrequests) section.
 
 
 Also, I really enjoy trying to answer questions on Stackoverflow ([Stackoverflow profile](https://stackoverflow.com/users/9051284/mabel-villalba)). 
