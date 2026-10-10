@@ -10,6 +10,7 @@ output:
     md_extensions: +emoji+citations+header_attributes
 link-citations: yes
 navigation_weight: 6
+mathjax: true
 #https://www.rdocumentation.org/packages/rmarkdown/versions/1.3/topics/md_document
 #My header {-} = # My header {.unnumbered}
 ---
